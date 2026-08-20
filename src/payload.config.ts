@@ -17,6 +17,7 @@ import { plugins } from './plugins'
 import { defaultLexical } from '@/fields/defaultLexical'
 import { getServerSideURL } from './utilities/getURL'
 import { migrations } from './migrations'
+import { postgresMigrations } from './migrations/postgres'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -36,6 +37,7 @@ const database = usesPostgres
       },
       // The production database is provisioned empty by Coolify. Later schema changes must use migrations.
       push: true,
+      prodMigrations: postgresMigrations,
     })
   : (await import('@payloadcms/db-sqlite')).sqliteAdapter({
       client: {
