@@ -1,4 +1,6 @@
+import { postgresAdapter } from '@payloadcms/db-postgres'
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
+import { s3Storage } from '@payloadcms/storage-s3'
 import sharp from 'sharp'
 import path from 'path'
 import { buildConfig, PayloadRequest } from 'payload'
@@ -19,6 +21,15 @@ import { migrations } from './migrations'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
+const databaseURL = process.env.DATABASE_URL || ''
+const usesPostgres = databaseURL.startsWith('postgres://') || databaseURL.startsWith('postgresql://')
+const minioConfiguration = {
+  accessKey: process.env.S3_ACCESS_KEY || '',
+  bucket: process.env.S3_BUCKET || '',
+  endpoint: process.env.S3_ENDPOINT || '',
+  secretKey: process.env.S3_SECRET_KEY || '',
+}
+const usesMinio = Object.values(minioConfiguration).every(Boolean)
 
 export default buildConfig({
   admin: {
@@ -59,18 +70,47 @@ export default buildConfig({
   },
   // This config helps us configure global or default features that the other editors can inherit
   editor: defaultLexical,
-  db: sqliteAdapter({
-    client: {
-      url: process.env.DATABASE_URL || '',
-    },
-    // Schema changes are applied through the tracked migrations, never by a dev-server rewrite.
-    push: false,
-    prodMigrations: migrations,
-  }),
+  db: usesPostgres
+    ? postgresAdapter({
+        pool: {
+          connectionString: databaseURL,
+        },
+        // The production database is provisioned empty by Coolify. Later schema changes must use migrations.
+        push: true,
+      })
+    : sqliteAdapter({
+        client: {
+          url: databaseURL,
+        },
+        // Schema changes are applied through the tracked migrations, never by a dev-server rewrite.
+        push: false,
+        prodMigrations: migrations,
+      }),
   collections: [Pages, Posts, Media, Categories, Users, Applications],
   cors: [getServerSideURL()].filter(Boolean),
   globals: [Header, Footer],
-  plugins,
+  plugins: [
+    ...plugins,
+    ...(usesMinio
+      ? [
+          s3Storage({
+            bucket: minioConfiguration.bucket,
+            collections: {
+              media: true,
+            },
+            config: {
+              credentials: {
+                accessKeyId: minioConfiguration.accessKey,
+                secretAccessKey: minioConfiguration.secretKey,
+              },
+              endpoint: minioConfiguration.endpoint,
+              forcePathStyle: true,
+              region: process.env.S3_REGION || 'us-east-1',
+            },
+          }),
+        ]
+      : []),
+  ],
   secret: process.env.PAYLOAD_SECRET,
   sharp,
   typescript: {
