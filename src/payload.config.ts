@@ -1,5 +1,4 @@
 import { postgresAdapter } from '@payloadcms/db-postgres'
-import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { s3Storage } from '@payloadcms/storage-s3'
 import sharp from 'sharp'
 import path from 'path'
@@ -30,6 +29,22 @@ const minioConfiguration = {
   secretKey: process.env.S3_SECRET_KEY || '',
 }
 const usesMinio = Object.values(minioConfiguration).every(Boolean)
+const database = usesPostgres
+  ? postgresAdapter({
+      pool: {
+        connectionString: databaseURL,
+      },
+      // The production database is provisioned empty by Coolify. Later schema changes must use migrations.
+      push: true,
+    })
+  : (await import('@payloadcms/db-sqlite')).sqliteAdapter({
+      client: {
+        url: databaseURL,
+      },
+      // Schema changes are applied through the tracked migrations, never by a dev-server rewrite.
+      push: false,
+      prodMigrations: migrations,
+    })
 
 export default buildConfig({
   admin: {
@@ -70,22 +85,7 @@ export default buildConfig({
   },
   // This config helps us configure global or default features that the other editors can inherit
   editor: defaultLexical,
-  db: usesPostgres
-    ? postgresAdapter({
-        pool: {
-          connectionString: databaseURL,
-        },
-        // The production database is provisioned empty by Coolify. Later schema changes must use migrations.
-        push: true,
-      })
-    : sqliteAdapter({
-        client: {
-          url: databaseURL,
-        },
-        // Schema changes are applied through the tracked migrations, never by a dev-server rewrite.
-        push: false,
-        prodMigrations: migrations,
-      }),
+  db: database,
   collections: [Pages, Posts, Media, Categories, Users, Applications],
   cors: [getServerSideURL()].filter(Boolean),
   globals: [Header, Footer],

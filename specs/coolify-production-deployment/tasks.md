@@ -7,5 +7,6 @@
 - [x] Aplicar a política de dependências também à execução do build no Docker.
 - [x] Impedir a pré-renderização de rotas do CMS antes da criação do schema PostgreSQL.
 - [x] Incluir o fallback SQLite no artefato standalone de produção.
+- [x] Carregar o adaptador SQLite condicionalmente no runtime local.
 - [ ] Validar TypeScript e lint.
 - [ ] Publicar a revisão no repositório e conectar a aplicação no Coolify.
