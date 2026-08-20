@@ -1,0 +1,134 @@
+- generic [active] [ref=f2e1]:
+  - button "Open Next.js Dev Tools" [ref=f2e7] [cursor=pointer]
+  - banner [ref=f2e11]:
+    - generic [ref=f2e12]:
+      - link [ref=f2e13] [cursor=pointer]:
+        - /url: /
+        - img "CCD Tecnologia" [ref=f2e14]
+      - navigation "Navegação principal" [ref=f2e15]:
+        - link "Sobre" [ref=f2e16] [cursor=pointer]:
+          - /url: /#sobre
+        - link "Soluções" [ref=f2e17] [cursor=pointer]:
+          - /url: /#solucoes
+        - link "Como fazemos" [ref=f2e18] [cursor=pointer]:
+          - /url: /#processo
+        - link "Contato" [ref=f2e19] [cursor=pointer]:
+          - /url: /#contato
+        - button "Ativar tema claro" [ref=f2e20]
+        - link "Área do Cliente" [ref=f2e30] [cursor=pointer]:
+          - /url: /portal
+  - main [ref=f2e31]:
+    - generic [ref=f2e32]:
+      - generic [ref=f2e42]:
+        - generic [ref=f2e43]: CCD / SOFTWARE
+        - code [ref=f2e44]: const impact = strategy .connect(data) .ship();
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]: Tecnologia que acompanha sua ambição
+        - heading [level=1] [ref=f2e55]:
+          - text: O próximo salto do seu negócio
+          - emphasis [ref=f2e56]: começa agora.
+        - paragraph [ref=f2e57]: Desenvolvemos produtos digitais, automações e estratégias de tecnologia para empresas que querem transformar intenção em impacto.
+        - generic [ref=f2e58]:
+          - link "Vamos conversar" [ref=f2e59] [cursor=pointer]:
+            - /url: "#contato"
+          - link "Conheça as soluções" [ref=f2e63] [cursor=pointer]:
+            - /url: "#solucoes"
+        - generic [ref=f2e64]: Pessoas, dados e tecnologia trabalhando na mesma direção.
+    - generic [ref=f2e67]:
+      - paragraph [ref=f2e68]: CCD TECNOLOGIA
+      - heading "Transformamos desafios de hoje em estruturas prontas para o amanhã." [level=2] [ref=f2e69]
+      - generic [ref=f2e70]:
+        - paragraph [ref=f2e71]: Não entregamos apenas código. Combinamos visão de negócio, design e engenharia para criar uma operação mais ágil, inteligente e conectada.
+        - link "Como construímos" [ref=f2e72] [cursor=pointer]:
+          - /url: "#processo"
+    - generic [ref=f2e77]:
+      - generic [ref=f2e78]:
+        - generic [ref=f2e79]:
+          - paragraph [ref=f2e80]: ECOSSISTEMA DIGITAL
+          - heading "Uma parceira para toda a sua evolução." [level=2] [ref=f2e81]
+        - paragraph [ref=f2e82]: Da primeira ideia à infraestrutura que mantém sua operação em movimento.
+      - generic [ref=f2e83]:
+        - article [ref=f2e84]:
+          - generic [ref=f2e90]: "01"
+          - heading "Software sob medida" [level=3] [ref=f2e91]
+          - paragraph [ref=f2e92]: Sistemas que traduzem processos complexos em experiências simples.
+        - article [ref=f2e96]:
+          - generic [ref=f2e100]: "02"
+          - heading "Aplicativos mobile" [level=3] [ref=f2e101]
+          - paragraph [ref=f2e102]: Produtos nativos e multiplataforma sempre perto do seu cliente.
+        - article [ref=f2e106]:
+          - generic [ref=f2e112]: "03"
+          - heading "Automações" [level=3] [ref=f2e113]
+          - paragraph [ref=f2e114]: Fluxos inteligentes que eliminam trabalho manual e aceleram decisões.
+        - article [ref=f2e118]:
+          - generic [ref=f2e123]: "04"
+          - heading "IA e chatbots" [level=3] [ref=f2e124]
+          - paragraph [ref=f2e125]: Atendimento e operação ampliados por inteligência artificial.
+        - article [ref=f2e129]:
+          - generic [ref=f2e136]: "05"
+          - heading "Integrações" [level=3] [ref=f2e137]
+          - paragraph [ref=f2e138]: Todos os seus sistemas conversando sem atrito.
+        - article [ref=f2e142]:
+          - generic [ref=f2e147]: "06"
+          - heading "Dados e BI" [level=3] [ref=f2e148]
+          - paragraph [ref=f2e149]: Indicadores claros para decisões que movem o negócio.
+        - article [ref=f2e153]:
+          - generic [ref=f2e165]: "07"
+          - heading "Cloud e on-premise" [level=3] [ref=f2e166]
+          - paragraph [ref=f2e167]: Infraestrutura segura, escalável e feita para a sua realidade.
+        - article [ref=f2e171]:
+          - generic [ref=f2e178]: "08"
+          - heading "Presença digital" [level=3] [ref=f2e179]
+          - paragraph [ref=f2e180]: Site, e-mail profissional, social media e estratégia conectados.
+    - generic [ref=f2e186]:
+      - paragraph [ref=f2e189]: TECNOLOGIA COM PROPÓSITO
+      - heading "Menos ruído. Mais movimento." [level=2] [ref=f2e190]
+      - paragraph [ref=f2e191]: Construímos uma base digital em que cada ferramenta resolve um problema real e cria espaço para o seu time ir além.
+    - generic [ref=f2e193]:
+      - generic [ref=f2e194]:
+        - paragraph [ref=f2e195]: NOSSO JEITO DE FAZER
+        - heading "Clareza no caminho. Evolução em cada entrega." [level=2] [ref=f2e196]
+      - list [ref=f2e197]:
+        - listitem [ref=f2e198]:
+          - generic [ref=f2e199]: "01"
+          - heading "Diagnóstico estratégico" [level=3] [ref=f2e200]
+          - paragraph [ref=f2e201]: Entendemos o contexto, as pessoas e a oportunidade antes de propor qualquer solução.
+        - listitem [ref=f2e202]:
+          - generic [ref=f2e203]: "02"
+          - heading "Produto digital" [level=3] [ref=f2e204]
+          - paragraph [ref=f2e205]: Projetamos experiências e tecnologias que fazem sentido para o seu negócio.
+        - listitem [ref=f2e206]:
+          - generic [ref=f2e207]: "03"
+          - heading "Integração e automação" [level=3] [ref=f2e208]
+          - paragraph [ref=f2e209]: Conectamos ferramentas, dados e times em fluxos de alto desempenho.
+        - listitem [ref=f2e210]:
+          - generic [ref=f2e211]: "04"
+          - heading "Evolução contínua" [level=3] [ref=f2e212]
+          - paragraph [ref=f2e213]: Acompanhamos resultados e evoluímos o que importa com você.
+    - generic [ref=f2e216]:
+      - generic [ref=f2e217]:
+        - paragraph [ref=f2e218]: VAMOS COMEÇAR?
+        - heading "Sua ideia merece ganhar escala." [level=2] [ref=f2e219]
+        - paragraph [ref=f2e220]: Conte um pouco sobre o desafio da sua empresa. Nossa equipe entra em contato para desenhar o próximo passo.
+      - generic [ref=f2e221]:
+        - generic [ref=f2e222]:
+          - text: Seu nome
+          - textbox "Seu nome" [ref=f2e223]:
+            - /placeholder: Como podemos te chamar?
+        - generic [ref=f2e224]:
+          - text: E-mail corporativo
+          - textbox "E-mail corporativo" [ref=f2e225]:
+            - /placeholder: voce@empresa.com
+        - generic [ref=f2e226]:
+          - text: O que você quer transformar?
+          - textbox "O que você quer transformar?" [ref=f2e227]:
+            - /placeholder: Conte brevemente sobre seu projeto
+        - button "Enviar mensagem" [ref=f2e228]
+  - contentinfo [ref=f2e232]:
+    - generic [ref=f2e233]:
+      - link [ref=f2e234] [cursor=pointer]:
+        - /url: /
+        - img "CCD Tecnologia" [ref=f2e236]
+      - paragraph [ref=f2e237]: © 2026 CCD Tecnologia. Tecnologia que move negócios.
+      - link "Área do Cliente" [ref=f2e238] [cursor=pointer]:
+        - /url: /portal

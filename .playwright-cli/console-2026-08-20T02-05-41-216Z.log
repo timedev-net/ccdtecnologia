@@ -1,0 +1,92 @@
+[     216ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[     246ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  105472ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  105504ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  105583ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  105617ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  127438ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  127499ms] [LOG] [Fast Refresh] done in 133ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  136761ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  136768ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  370362ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  370431ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  386217ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  386314ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  386387ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  629029ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  629060ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  629127ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  638137ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  638214ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  643972ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  643977ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  651276ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  651637ms] [LOG] [Fast Refresh] done in 463ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  682934ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=9pyKityaCan0vwMRRpq06' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[  683937ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  684308ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  684319ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  684337ms] [ERROR] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:1052
+[  684364ms] Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <SegmentViewNode type="layout" pagePath="(frontend)...">
+      <SegmentTrieNode>
+      <link>
+      <script>
+      <script>
+      <RootLayout>
+        <html className="geistsans_..." lang="pt-BR" suppressHydrationWarning={true}>
+          <head>
+          <body>
+            <Providers>
+              <ThemeProvider>
+                <HeaderThemeProvider>
+                  <AdminBar>
+                  <Header>
+                    <HeaderClient>
+                      <header className="site-header">
+                        <div className="ccd-contai...">
+                          <LinkComponent>
+                          <nav aria-label="Navegação ..." className="site-nav">
+                            <LinkComponent>
+                            <LinkComponent>
+                            <LinkComponent>
+                            <LinkComponent>
+                            <ThemeToggle>
+                              <button
++                               aria-label="Ativar tema claro"
+-                               aria-label="Ativar tema escuro"
+                                className="theme-toggle"
+                                onClick={function onClick}
+                                type="button"
+                              >
+                                <Sun>
+                                <Moon>
+                                <span className="sr-only">
++                                 Ativar tema claro
+-                                 Ativar tema escuro
+                            ...
+                  ...
+
+    at throwOnHydrationMismatch (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:3120:56)
+    at prepareToHydrateHostInstance (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:3174:23)
+    at completeWork (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:6749:60)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:761:74)
+    at completeUnitOfWork (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:9452:23)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:9387:28)
+    at workLoopConcurrentByScheduler (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:9381:58)
+    at renderRootConcurrent (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:9364:71)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:8891:150)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_react-dom_0zd3_z0._.js:10085:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/0fpc_next_dist_compiled_0c_5dok._.js:2647:64)

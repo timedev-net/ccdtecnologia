@@ -1,0 +1,15 @@
+[     106ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[     115ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[    6515ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[    6516ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  207016ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=tp1RjvqTYAmfRNDf7mLSk' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[  208288ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  208625ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  208631ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  220941ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=LajnSmQSO-sKY_WiGPR4n' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[  221944ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=LajnSmQSO-sKY_WiGPR4n' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[  222947ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=LajnSmQSO-sKY_WiGPR4n' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[  223949ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=LajnSmQSO-sKY_WiGPR4n' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[  224953ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  225262ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  225267ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776

@@ -20,6 +20,16 @@ export const ParticleField = () => {
     let visible = true
     let particles: Particle[] = []
     let trail: Trail[] = []
+    let colors = { connection: '155, 244, 92', point: '198, 255, 59', trail: '198, 255, 59' }
+
+    const updateColors = () => {
+      const styles = window.getComputedStyle(document.documentElement)
+      colors = {
+        connection: styles.getPropertyValue('--ccd-particle-connection-rgb').trim() || colors.connection,
+        point: styles.getPropertyValue('--ccd-particle-point-rgb').trim() || colors.point,
+        trail: styles.getPropertyValue('--ccd-particle-trail-rgb').trim() || colors.trail,
+      }
+    }
 
     const resize = () => {
       const bounds = canvas.getBoundingClientRect()
@@ -47,9 +57,9 @@ export const ParticleField = () => {
       trail.forEach((point) => {
         point.life *= 0.91
         context.beginPath()
-        context.fillStyle = `rgba(198, 255, 59, ${point.life * 0.72})`
+        context.fillStyle = `rgba(${colors.trail}, ${point.life * 0.72})`
         context.shadowBlur = 16
-        context.shadowColor = 'rgba(198, 255, 59, 0.7)'
+        context.shadowColor = `rgba(${colors.trail}, 0.7)`
         context.arc(point.x, point.y, 1.5 + point.life * 4, 0, Math.PI * 2)
         context.fill()
       })
@@ -70,7 +80,7 @@ export const ParticleField = () => {
         if (particle.y < -10 || particle.y > bounds.height + 10) particle.vy *= -1
 
         context.beginPath()
-        context.fillStyle = 'rgba(198, 255, 59, 0.82)'
+        context.fillStyle = `rgba(${colors.point}, 0.82)`
         context.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
         context.fill()
         for (let next = index + 1; next < particles.length; next += 1) {
@@ -78,7 +88,7 @@ export const ParticleField = () => {
           const connection = Math.hypot(particle.x - other.x, particle.y - other.y)
           if (connection < 142) {
             context.beginPath()
-            context.strokeStyle = `rgba(155, 244, 92, ${0.25 * (1 - connection / 142)})`
+            context.strokeStyle = `rgba(${colors.connection}, ${0.25 * (1 - connection / 142)})`
             context.lineWidth = 0.85
             context.moveTo(particle.x, particle.y)
             context.lineTo(other.x, other.y)
@@ -106,7 +116,10 @@ export const ParticleField = () => {
     })
 
     resize()
+    updateColors()
     observer.observe(canvas)
+    const themeObserver = new MutationObserver(updateColors)
+    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] })
     window.addEventListener('resize', resize)
     window.addEventListener('pointermove', move)
     canvas.parentElement?.addEventListener('pointerleave', leave)
@@ -114,6 +127,7 @@ export const ParticleField = () => {
     return () => {
       window.cancelAnimationFrame(animationFrame)
       observer.disconnect()
+      themeObserver.disconnect()
       window.removeEventListener('resize', resize)
       window.removeEventListener('pointermove', move)
       canvas.parentElement?.removeEventListener('pointerleave', leave)

@@ -6,11 +6,13 @@ import React, { useEffect, useState } from 'react'
 
 import { Logo } from '@/components/Logo/Logo'
 import { ThemeToggle } from '@/components/Landing/ThemeToggle'
+import { useTheme } from '@/providers/Theme'
 
 export const HeaderClient: React.FC = () => {
   /* Storing the value in a useState to avoid hydration errors */
   const [theme, setTheme] = useState<string | null>(null)
   const { headerTheme, setHeaderTheme } = useHeaderTheme()
+  const { theme: activeTheme } = useTheme()
   const pathname = usePathname()
 
   useEffect(() => {
@@ -27,7 +29,7 @@ export const HeaderClient: React.FC = () => {
     <header className="site-header" {...(theme ? { 'data-theme': theme } : {})}>
       <div className="ccd-container site-header-inner">
         <Link href="/">
-          <Logo loading="eager" priority="high" />
+          <Logo loading="eager" priority="high" variant={activeTheme === 'light' ? 'light' : 'dark'} />
         </Link>
         <nav aria-label="Navegação principal" className="site-nav">
           <Link href="/#sobre">Sobre</Link>
