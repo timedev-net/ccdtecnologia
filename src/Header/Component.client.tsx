@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
 import { Logo } from '@/components/Logo/Logo'
+import { ThemeToggle } from '@/components/Landing/ThemeToggle'
 
 export const HeaderClient: React.FC = () => {
   /* Storing the value in a useState to avoid hydration errors */
@@ -33,6 +34,7 @@ export const HeaderClient: React.FC = () => {
           <Link href="/#solucoes">Soluções</Link>
           <Link href="/#processo">Como fazemos</Link>
           <Link href="/#contato">Contato</Link>
+          <ThemeToggle />
           <Link className="client-access" href="/portal">Área do Cliente</Link>
         </nav>
       </div>

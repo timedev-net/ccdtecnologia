@@ -21,6 +21,7 @@ import {
   type LucideIcon,
 } from 'lucide-react'
 import { CSSProperties, MouseEvent, useEffect, useRef } from 'react'
+import { ParticleField } from './ParticleField'
 
 type Service = { icon: LucideIcon; title: string; text: string }
 
@@ -38,8 +39,9 @@ const services: Service[] = [
 const capabilities = ['Diagnóstico estratégico', 'Produto digital', 'Integração e automação', 'Evolução contínua']
 
 const parallaxPhotos = [
-  'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
-  'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=80',
+  'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=85',
+  'https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=1200&q=85',
+  'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85',
 ]
 
 export const Landing = () => {
@@ -67,11 +69,17 @@ export const Landing = () => {
   return (
     <main className="ccd-site" ref={root}>
       <section className="ccd-hero" id="inicio">
+        <div className="hero-software-scene" style={{ backgroundImage: `url(${parallaxPhotos[0]})` }} />
         <div className="hero-orb hero-orb-one" />
         <div className="hero-orb hero-orb-two" />
         <div className="hero-grid" />
+        <ParticleField />
+        <div className="hero-neural hero-neural-one" />
+        <div className="hero-neural hero-neural-two" />
         <div className="hero-photo hero-photo-back" style={{ backgroundImage: `url(${parallaxPhotos[1]})` }} />
-        <div className="hero-photo hero-photo-front" style={{ backgroundImage: `url(${parallaxPhotos[0]})` }} />
+        <div className="hero-photo hero-photo-front" style={{ backgroundImage: `url(${parallaxPhotos[2]})` }} />
+        <div className="hero-photo hero-photo-float" style={{ backgroundImage: `url(${parallaxPhotos[2]})` }} />
+        <div className="hero-code-panel" aria-hidden="true"><span>CCD / SOFTWARE</span><code>const impact = strategy<br />&nbsp;&nbsp;.connect(data)<br />&nbsp;&nbsp;.ship();</code><i /><i /><i /></div>
         <div className="ccd-container hero-content">
           <span className="eyebrow"><Sparkles aria-hidden="true" /> Tecnologia que acompanha sua ambição</span>
           <h1>O próximo salto do seu negócio <em>começa agora.</em></h1>
