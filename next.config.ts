@@ -25,6 +25,8 @@ const nextConfig: NextConfig = {
       './node_modules/drizzle-kit/**/*',
       './node_modules/.pnpm/drizzle-kit@*/node_modules/drizzle-kit/**/*',
       './node_modules/.pnpm/@drizzle-team+*/node_modules/@drizzle-team/**/*',
+      './node_modules/drizzle-orm/**/*',
+      './node_modules/.pnpm/drizzle-orm@*/node_modules/drizzle-orm/**/*',
     ],
   },
   // Temporarily required on Windows until Next.js fixes Turbopack Sass resolution.
