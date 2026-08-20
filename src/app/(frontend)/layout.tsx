@@ -20,7 +20,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const { isEnabled } = await draftMode()
 
   return (
-    <html className={cn(GeistSans.variable, GeistMono.variable)} lang="en" suppressHydrationWarning>
+    <html className={cn(GeistSans.variable, GeistMono.variable)} lang="pt-BR" suppressHydrationWarning>
       <head>
         <InitTheme />
         <link href="/favicon.ico" rel="icon" sizes="32x32" />
@@ -45,9 +45,17 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
 export const metadata: Metadata = {
   metadataBase: new URL(getServerSideURL()),
-  openGraph: mergeOpenGraph(),
+  title: {
+    default: 'CCD Tecnologia | Soluções digitais',
+    template: '%s | CCD Tecnologia',
+  },
+  description: 'Soluções digitais, dados, inteligência artificial e infraestrutura para empresas em movimento.',
+  openGraph: mergeOpenGraph({
+    description: 'Tecnologia sob medida para transformar e acelerar negócios.',
+    title: 'CCD Tecnologia',
+  }),
   twitter: {
     card: 'summary_large_image',
-    creator: '@payloadcms',
+    creator: '@ccdtecnologia',
   },
 }

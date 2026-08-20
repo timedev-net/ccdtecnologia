@@ -9,7 +9,7 @@ const defaultOpenGraph: Metadata['openGraph'] = {
       url: `${getServerSideURL()}/website-template-OG.webp`,
     },
   ],
-  siteName: 'Payload Website Template',
+  siteName: 'CCD Tecnologia',
   title: 'Payload Website Template',
 }
 

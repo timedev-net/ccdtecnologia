@@ -1,5 +1,12 @@
-import PageTemplate, { generateMetadata } from './[slug]/page'
+import type { Metadata } from 'next'
 
-export default PageTemplate
+import { Landing } from '@/components/Landing/Component'
 
-export { generateMetadata }
+export default function HomePage() {
+  return <Landing />
+}
+
+export const metadata: Metadata = {
+  title: 'CCD Tecnologia | Soluções digitais que movem negócios',
+  description: 'Software, aplicativos, automações, inteligência artificial, dados e infraestrutura para sua empresa evoluir.',
+}
