@@ -1,0 +1,991 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e9]:
+        - heading "Navigation Menu" [level=2] [ref=e10]
+        - generic [ref=e11]:
+          - link "Homepage" [ref=e13] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]:
+            - navigation "Global" [ref=e17]:
+              - list [ref=e18]:
+                - listitem [ref=e19]:
+                  - button "Platform" [ref=e21] [cursor=pointer]
+                - listitem [ref=e24]:
+                  - button "Solutions" [ref=e26] [cursor=pointer]
+                - listitem [ref=e29]:
+                  - button "Resources" [ref=e31] [cursor=pointer]
+                - listitem [ref=e34]:
+                  - button "Open Source" [ref=e36] [cursor=pointer]
+                - listitem [ref=e39]:
+                  - button "Enterprise" [ref=e41] [cursor=pointer]
+                - listitem [ref=e44]:
+                  - link "Pricing" [ref=e45] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+            - generic [ref=e46]:
+              - button "Search or jump to, type / to search" [ref=e48] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - generic [ref=e52]: Search
+                  - generic [ref=e53]: /
+              - link "Sign in" [ref=e55] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ftimedev-net%2Fccdtecnologia
+              - link "Sign up" [ref=e58] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=timedev-net%2Fccdtecnologia
+              - button "Appearance settings" [ref=e61] [cursor=pointer]
+    - main [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e72]:
+            - link "timedev-net" [ref=e76] [cursor=pointer]:
+              - /url: /timedev-net
+            - generic [ref=e77]: /
+            - strong [ref=e78]:
+              - link "ccdtecnologia" [ref=e79] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia
+            - generic [ref=e80]: Public
+          - generic [ref=e81]:
+            - list:
+              - listitem [ref=e82]:
+                - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ftimedev-net%2Fccdtecnologia
+                  - text: Notifications
+              - listitem [ref=e86]:
+                - link "Fork 0" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ftimedev-net%2Fccdtecnologia
+                  - text: Fork
+                  - generic "0" [ref=e90]
+              - listitem [ref=e91]:
+                - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ftimedev-net%2Fccdtecnologia
+                  - text: Star
+                  - generic "0 users starred this repository" [ref=e96]: "0"
+        - navigation "Repository" [ref=e97]:
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Code" [ref=e100] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia
+            - listitem [ref=e104]:
+              - link "Issues" [ref=e105] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia/issues
+            - listitem [ref=e110]:
+              - link "Pull requests" [ref=e111] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia/pulls
+            - listitem [ref=e115]:
+              - link "Actions" [ref=e116] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia/actions
+            - listitem [ref=e120]:
+              - link "Projects" [ref=e121] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia/projects
+            - listitem [ref=e125]:
+              - link "Security and quality" [ref=e126] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia/security
+            - listitem [ref=e130]:
+              - link "Insights" [ref=e131] [cursor=pointer]:
+                - /url: /timedev-net/ccdtecnologia/pulse
+      - generic [ref=e148]:
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - button "main branch" [ref=e155] [cursor=pointer]:
+                - generic [ref=e156]: main
+              - generic [ref=e160]:
+                - link "Branches" [ref=e161] [cursor=pointer]:
+                  - /url: /timedev-net/ccdtecnologia/branches
+                - link "Tags" [ref=e164] [cursor=pointer]:
+                  - /url: /timedev-net/ccdtecnologia/tags
+            - button "Code" [ref=e168] [cursor=pointer]
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - heading "Latest commit" [level=2] [ref=e175]
+                - generic [ref=e178]:
+                  - heading "History" [level=2] [ref=e179]
+                  - link "6 Commits" [ref=e180] [cursor=pointer]:
+                    - /url: /timedev-net/ccdtecnologia/commits/main/
+              - heading "Folders and files" [level=2] [ref=e183]
+              - table "Folders and files" [ref=e184]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message"
+                    - columnheader "Last commit date"
+                - rowgroup [ref=e185]:
+                  - row ".agents/skills/payload, (Directory)" [ref=e186]:
+                    - cell [ref=e187]:
+                      - link ".agents/skills/payload, (Directory)" [ref=e194] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/tree/main/.agents/skills/payload
+                        - text: .agents/skills/payload
+                    - cell [ref=e195]
+                    - cell [ref=e197]
+                  - row ".playwright-cli, (Directory)" [ref=e200]:
+                    - cell [ref=e201]:
+                      - link ".playwright-cli, (Directory)" [ref=e208] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/tree/main/.playwright-cli
+                        - text: .playwright-cli
+                    - cell [ref=e209]
+                    - cell [ref=e211]
+                  - row ".vscode, (Directory)" [ref=e214]:
+                    - cell [ref=e215]:
+                      - link ".vscode, (Directory)" [ref=e222] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/tree/main/.vscode
+                        - text: .vscode
+                    - cell [ref=e223]
+                    - cell [ref=e225]
+                  - row "public, (Directory)" [ref=e228]:
+                    - cell [ref=e229]:
+                      - link "public, (Directory)" [ref=e236] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/tree/main/public
+                        - text: public
+                    - cell [ref=e237]
+                    - cell [ref=e239]
+                  - row "specs/landing-portal-ccd, (Directory)" [ref=e242]:
+                    - cell [ref=e243]:
+                      - link "specs/landing-portal-ccd, (Directory)" [ref=e250] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/tree/main/specs/landing-portal-ccd
+                        - text: specs/landing-portal-ccd
+                    - cell [ref=e251]
+                    - cell [ref=e253]
+                  - row "src, (Directory)" [ref=e256]:
+                    - cell [ref=e257]:
+                      - link "src, (Directory)" [ref=e264] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/tree/main/src
+                        - text: src
+                    - cell [ref=e265]
+                    - cell [ref=e267]
+                  - row "tests, (Directory)" [ref=e270]:
+                    - cell [ref=e271]:
+                      - link "tests, (Directory)" [ref=e278] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/tree/main/tests
+                        - text: tests
+                    - cell [ref=e279]
+                    - cell [ref=e281]
+                  - row ".editorconfig, (File)" [ref=e284]:
+                    - cell [ref=e285]:
+                      - link ".editorconfig, (File)" [ref=e292] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/.editorconfig
+                        - text: .editorconfig
+                    - cell [ref=e293]
+                    - cell [ref=e295]
+                  - row ".env.example, (File)" [ref=e298]:
+                    - cell [ref=e299]:
+                      - link ".env.example, (File)" [ref=e306] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/.env.example
+                        - text: .env.example
+                    - cell [ref=e307]
+                    - cell [ref=e309]
+                  - row ".gitignore, (File)" [ref=e312]:
+                    - cell [ref=e313]:
+                      - link ".gitignore, (File)" [ref=e320] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/.gitignore
+                        - text: .gitignore
+                    - cell [ref=e321]
+                    - cell [ref=e323]
+                  - row ".npmrc, (File)" [ref=e326]:
+                    - cell [ref=e327]:
+                      - link ".npmrc, (File)" [ref=e334] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/.npmrc
+                        - text: .npmrc
+                    - cell [ref=e335]
+                    - cell [ref=e337]
+                  - row ".prettierignore, (File)" [ref=e340]:
+                    - cell [ref=e341]:
+                      - link ".prettierignore, (File)" [ref=e348] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/.prettierignore
+                        - text: .prettierignore
+                    - cell [ref=e349]
+                    - cell [ref=e351]
+                  - row ".prettierrc.json, (File)" [ref=e354]:
+                    - cell [ref=e355]:
+                      - link ".prettierrc.json, (File)" [ref=e362] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/.prettierrc.json
+                        - text: .prettierrc.json
+                    - cell [ref=e363]
+                    - cell [ref=e365]
+                  - row "AGENTS.md, (File)" [ref=e368]:
+                    - cell [ref=e369]:
+                      - link "AGENTS.md, (File)" [ref=e376] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/AGENTS.md
+                        - text: AGENTS.md
+                    - cell [ref=e377]
+                    - cell [ref=e379]
+                  - row "Dockerfile, (File)" [ref=e382]:
+                    - cell [ref=e383]:
+                      - link "Dockerfile, (File)" [ref=e390] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/Dockerfile
+                        - text: Dockerfile
+                    - cell [ref=e391]
+                    - cell [ref=e393]
+                  - row "README.md, (File)" [ref=e396]:
+                    - cell [ref=e397]:
+                      - link "README.md, (File)" [ref=e404] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/README.md
+                        - text: README.md
+                    - cell [ref=e405]
+                    - cell [ref=e407]
+                  - row "ccdtecnologia.db, (File)" [ref=e410]:
+                    - cell [ref=e411]:
+                      - link "ccdtecnologia.db, (File)" [ref=e418] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/ccdtecnologia.db
+                        - text: ccdtecnologia.db
+                    - cell [ref=e419]
+                    - cell [ref=e421]
+                  - row "components.json, (File)" [ref=e424]:
+                    - cell [ref=e425]:
+                      - link "components.json, (File)" [ref=e432] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/components.json
+                        - text: components.json
+                    - cell [ref=e433]
+                    - cell [ref=e435]
+                  - row "docker-compose.yml, (File)" [ref=e438]:
+                    - cell [ref=e439]:
+                      - link "docker-compose.yml, (File)" [ref=e446] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/docker-compose.yml
+                        - text: docker-compose.yml
+                    - cell [ref=e447]
+                    - cell [ref=e449]
+                  - row "eslint.config.mjs, (File)" [ref=e452]:
+                    - cell [ref=e453]:
+                      - link "eslint.config.mjs, (File)" [ref=e460] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/eslint.config.mjs
+                        - text: eslint.config.mjs
+                    - cell [ref=e461]
+                    - cell [ref=e463]
+                  - row "next-sitemap.config.cjs, (File)" [ref=e466]:
+                    - cell [ref=e467]:
+                      - link "next-sitemap.config.cjs, (File)" [ref=e474] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/next-sitemap.config.cjs
+                        - text: next-sitemap.config.cjs
+                    - cell [ref=e475]
+                    - cell [ref=e477]
+                  - row "next.config.ts, (File)" [ref=e480]:
+                    - cell [ref=e481]:
+                      - link "next.config.ts, (File)" [ref=e488] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/next.config.ts
+                        - text: next.config.ts
+                    - cell [ref=e489]
+                    - cell [ref=e491]
+                  - row "package.json, (File)" [ref=e494]:
+                    - cell [ref=e495]:
+                      - link "package.json, (File)" [ref=e502] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/package.json
+                        - text: package.json
+                    - cell [ref=e503]
+                    - cell [ref=e505]
+                  - row "playwright.config.ts, (File)" [ref=e508]:
+                    - cell [ref=e509]:
+                      - link "playwright.config.ts, (File)" [ref=e516] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/playwright.config.ts
+                        - text: playwright.config.ts
+                    - cell [ref=e517]
+                    - cell [ref=e519]
+                  - row "pnpm-lock.yaml, (File)" [ref=e522]:
+                    - cell [ref=e523]:
+                      - link "pnpm-lock.yaml, (File)" [ref=e530] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/pnpm-lock.yaml
+                        - text: pnpm-lock.yaml
+                    - cell [ref=e531]
+                    - cell [ref=e533]
+                  - row "pnpm-workspace.yaml, (File)" [ref=e536]:
+                    - cell [ref=e537]:
+                      - link "pnpm-workspace.yaml, (File)" [ref=e544] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/pnpm-workspace.yaml
+                        - text: pnpm-workspace.yaml
+                    - cell [ref=e545]
+                    - cell [ref=e547]
+                  - row "postcss.config.js, (File)" [ref=e550]:
+                    - cell [ref=e551]:
+                      - link "postcss.config.js, (File)" [ref=e558] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/postcss.config.js
+                        - text: postcss.config.js
+                    - cell [ref=e559]
+                    - cell [ref=e561]
+                  - row "redirects.ts, (File)" [ref=e564]:
+                    - cell [ref=e565]:
+                      - link "redirects.ts, (File)" [ref=e572] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/redirects.ts
+                        - text: redirects.ts
+                    - cell [ref=e573]
+                    - cell [ref=e575]
+                  - row "tailwind.config.mjs, (File)" [ref=e578]:
+                    - cell [ref=e579]:
+                      - link "tailwind.config.mjs, (File)" [ref=e586] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/tailwind.config.mjs
+                        - text: tailwind.config.mjs
+                    - cell [ref=e587]
+                    - cell [ref=e589]
+                  - row "test.env, (File)" [ref=e592]:
+                    - cell [ref=e593]:
+                      - link "test.env, (File)" [ref=e600] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/test.env
+                        - text: test.env
+                    - cell [ref=e601]
+                    - cell [ref=e603]
+                  - row "tsconfig.json, (File)" [ref=e606]:
+                    - cell [ref=e607]:
+                      - link "tsconfig.json, (File)" [ref=e614] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/tsconfig.json
+                        - text: tsconfig.json
+                    - cell [ref=e615]
+                    - cell [ref=e617]
+                  - row "tsconfig.tsbuildinfo, (File)" [ref=e620]:
+                    - cell [ref=e621]:
+                      - link "tsconfig.tsbuildinfo, (File)" [ref=e628] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/tsconfig.tsbuildinfo
+                        - text: tsconfig.tsbuildinfo
+                    - cell [ref=e629]
+                    - cell [ref=e631]
+                  - row "vitest.config.mts, (File)" [ref=e634]:
+                    - cell [ref=e635]:
+                      - link "vitest.config.mts, (File)" [ref=e642] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/vitest.config.mts
+                        - text: vitest.config.mts
+                    - cell [ref=e643]
+                    - cell [ref=e645]
+                  - row "vitest.setup.ts, (File)" [ref=e648]:
+                    - cell [ref=e649]:
+                      - link "vitest.setup.ts, (File)" [ref=e656] [cursor=pointer]:
+                        - /url: /timedev-net/ccdtecnologia/blob/main/vitest.setup.ts
+                        - text: vitest.setup.ts
+                    - cell [ref=e657]
+                    - cell [ref=e659]
+            - generic [ref=e663]:
+              - generic [ref=e664]:
+                - heading "Repository files navigation" [level=2] [ref=e665]
+                - navigation "Repository files" [ref=e666]:
+                  - list [ref=e667]:
+                    - listitem [ref=e668]:
+                      - link "README" [ref=e669] [cursor=pointer]:
+                        - /url: "#"
+                - button "Outline" [ref=e671] [cursor=pointer]
+              - article [ref=e675]:
+                - generic [ref=e676]:
+                  - heading "Payload Website Template" [level=1] [ref=e677]
+                  - 'link "Permalink: Payload Website Template" [ref=e678] [cursor=pointer]':
+                    - /url: "#payload-website-template"
+                - paragraph [ref=e681]:
+                  - text: This is the official
+                  - link "Payload Website Template" [ref=e682] [cursor=pointer]:
+                    - /url: https://github.com/payloadcms/payload/blob/3.x/templates/website
+                  - text: . Use it to power websites, blogs, or portfolios from small to enterprise. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
+                - paragraph [ref=e683]: "This template is right for you if you are working on:"
+                - list [ref=e684]:
+                  - listitem [ref=e685]: A personal or enterprise-grade website, blog, or portfolio
+                  - listitem [ref=e686]: A content publishing platform with a fully featured publication workflow
+                  - listitem [ref=e687]: Exploring the capabilities of Payload
+                - paragraph [ref=e688]: "Core features:"
+                - list [ref=e689]:
+                  - listitem [ref=e690]:
+                    - link "Pre-configured Payload Config" [ref=e691] [cursor=pointer]:
+                      - /url: "#how-it-works"
+                  - listitem [ref=e692]:
+                    - link "Authentication" [ref=e693] [cursor=pointer]:
+                      - /url: "#users-authentication"
+                  - listitem [ref=e694]:
+                    - link "Access Control" [ref=e695] [cursor=pointer]:
+                      - /url: "#access-control"
+                  - listitem [ref=e696]:
+                    - link "Layout Builder" [ref=e697] [cursor=pointer]:
+                      - /url: "#layout-builder"
+                  - listitem [ref=e698]:
+                    - link "Draft Preview" [ref=e699] [cursor=pointer]:
+                      - /url: "#draft-preview"
+                  - listitem [ref=e700]:
+                    - link "Live Preview" [ref=e701] [cursor=pointer]:
+                      - /url: "#live-preview"
+                  - listitem [ref=e702]:
+                    - link "On-demand Revalidation" [ref=e703] [cursor=pointer]:
+                      - /url: "#on-demand-revalidation"
+                  - listitem [ref=e704]:
+                    - link "SEO" [ref=e705] [cursor=pointer]:
+                      - /url: "#seo"
+                  - listitem [ref=e706]:
+                    - link "Search" [ref=e707] [cursor=pointer]:
+                      - /url: "#search"
+                  - listitem [ref=e708]:
+                    - link "Redirects" [ref=e709] [cursor=pointer]:
+                      - /url: "#redirects"
+                  - listitem [ref=e710]:
+                    - link "Jobs and Scheduled Publishing" [ref=e711] [cursor=pointer]:
+                      - /url: "#jobs-and-scheduled-publish"
+                  - listitem [ref=e712]:
+                    - link "Website" [ref=e713] [cursor=pointer]:
+                      - /url: "#website"
+                - generic [ref=e714]:
+                  - heading "Quick Start" [level=2] [ref=e715]
+                  - 'link "Permalink: Quick Start" [ref=e716] [cursor=pointer]':
+                    - /url: "#quick-start"
+                - paragraph [ref=e719]: "To spin up this example locally, follow these steps:"
+                - generic [ref=e720]:
+                  - heading "Clone" [level=3] [ref=e721]
+                  - 'link "Permalink: Clone" [ref=e722] [cursor=pointer]':
+                    - /url: "#clone"
+                - paragraph [ref=e725]:
+                  - text: If you have not done so already, you need to have standalone copy of this repo on your machine. If you've already cloned this repo, skip to
+                  - link "Development" [ref=e726] [cursor=pointer]:
+                    - /url: "#development"
+                  - text: .
+                - paragraph [ref=e727]:
+                  - text: Use the
+                  - code [ref=e728]: create-payload-app
+                  - text: "CLI to clone this template directly to your machine:"
+                - generic [ref=e729]:
+                  - generic [ref=e730]: pnpx create-payload-app my-project -t website
+                  - button "Copy code to clipboard" [ref=e732] [cursor=pointer]
+                - generic [ref=e736]:
+                  - heading "Development" [level=3] [ref=e737]
+                  - 'link "Permalink: Development" [ref=e738] [cursor=pointer]':
+                    - /url: "#development"
+                - list [ref=e741]:
+                  - listitem [ref=e742]:
+                    - text: First
+                    - link "clone the repo" [ref=e743] [cursor=pointer]:
+                      - /url: "#clone"
+                    - text: if you have not done so already
+                  - listitem [ref=e744]:
+                    - code [ref=e745]: cd my-project && cp .env.example .env
+                    - text: to copy the example environment variables
+                  - listitem [ref=e746]:
+                    - code [ref=e747]: pnpm install && pnpm dev
+                    - text: to install dependencies and start the dev server
+                  - listitem [ref=e748]:
+                    - text: open
+                    - code [ref=e749]: http://localhost:3000
+                    - text: to open the app in your browser
+                - paragraph [ref=e750]:
+                  - text: That's it! Changes made in
+                  - code [ref=e751]: ./src
+                  - text: will be reflected in your app. Follow the on-screen instructions to login and create your first admin user. Then check out
+                  - link "Production" [ref=e752] [cursor=pointer]:
+                    - /url: "#production"
+                  - text: once you're ready to build and serve your app, and
+                  - link "Deployment" [ref=e753] [cursor=pointer]:
+                    - /url: "#deployment"
+                  - text: when you're ready to go live.
+                - generic [ref=e754]:
+                  - heading "How it works" [level=2] [ref=e755]
+                  - 'link "Permalink: How it works" [ref=e756] [cursor=pointer]':
+                    - /url: "#how-it-works"
+                - paragraph [ref=e759]: "The Payload config is tailored specifically to the needs of most websites. It is pre-configured in the following ways:"
+                - generic [ref=e760]:
+                  - heading "Collections" [level=3] [ref=e761]
+                  - 'link "Permalink: Collections" [ref=e762] [cursor=pointer]':
+                    - /url: "#collections"
+                - paragraph [ref=e765]:
+                  - text: See the
+                  - link "Collections" [ref=e766] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/configuration/collections
+                  - text: docs for details on how to extend this functionality.
+                - list [ref=e767]:
+                  - listitem [ref=e768]:
+                    - generic [ref=e769]:
+                      - heading "Users (Authentication)" [level=4] [ref=e770]
+                      - 'link "Permalink: Users (Authentication)" [ref=e771] [cursor=pointer]':
+                        - /url: "#users-authentication"
+                    - paragraph [ref=e774]:
+                      - text: Users are auth-enabled collections that have access to the admin panel and unpublished content. See
+                      - link "Access Control" [ref=e775] [cursor=pointer]:
+                        - /url: "#access-control"
+                      - text: for more details.
+                    - paragraph [ref=e776]:
+                      - text: For additional help, see the official
+                      - link "Auth Example" [ref=e777] [cursor=pointer]:
+                        - /url: https://github.com/payloadcms/payload/tree/3.x/examples/auth
+                      - text: or the
+                      - link "Authentication" [ref=e778] [cursor=pointer]:
+                        - /url: https://payloadcms.com/docs/authentication/overview#authentication-overview
+                      - text: docs.
+                  - listitem [ref=e779]:
+                    - generic [ref=e780]:
+                      - heading "Posts" [level=4] [ref=e781]
+                      - 'link "Permalink: Posts" [ref=e782] [cursor=pointer]':
+                        - /url: "#posts"
+                    - paragraph [ref=e785]:
+                      - text: Posts are used to generate blog posts, news articles, or any other type of content that is published over time. All posts are layout builder enabled so you can generate unique layouts for each post using layout-building blocks, see
+                      - link "Layout Builder" [ref=e786] [cursor=pointer]:
+                        - /url: "#layout-builder"
+                      - text: for more details. Posts are also draft-enabled so you can preview them before publishing them to your website, see
+                      - link "Draft Preview" [ref=e787] [cursor=pointer]:
+                        - /url: "#draft-preview"
+                      - text: for more details.
+                  - listitem [ref=e788]:
+                    - generic [ref=e789]:
+                      - heading "Pages" [level=4] [ref=e790]
+                      - 'link "Permalink: Pages" [ref=e791] [cursor=pointer]':
+                        - /url: "#pages"
+                    - paragraph [ref=e794]:
+                      - text: All pages are layout builder enabled so you can generate unique layouts for each page using layout-building blocks, see
+                      - link "Layout Builder" [ref=e795] [cursor=pointer]:
+                        - /url: "#layout-builder"
+                      - text: for more details. Pages are also draft-enabled so you can preview them before publishing them to your website, see
+                      - link "Draft Preview" [ref=e796] [cursor=pointer]:
+                        - /url: "#draft-preview"
+                      - text: for more details.
+                  - listitem [ref=e797]:
+                    - generic [ref=e798]:
+                      - heading "Media" [level=4] [ref=e799]
+                      - 'link "Permalink: Media" [ref=e800] [cursor=pointer]':
+                        - /url: "#media"
+                    - paragraph [ref=e803]: This is the uploads enabled collection used by pages, posts, and projects to contain media like images, videos, downloads, and other assets. It features pre-configured sizes, focal point and manual resizing to help you manage your pictures.
+                  - listitem [ref=e804]:
+                    - generic [ref=e805]:
+                      - heading "Categories" [level=4] [ref=e806]
+                      - 'link "Permalink: Categories" [ref=e807] [cursor=pointer]':
+                        - /url: "#categories"
+                    - paragraph [ref=e810]:
+                      - text: A taxonomy used to group posts together. Categories can be nested inside of one another, for example "News > Technology". See the official
+                      - link "Payload Nested Docs Plugin" [ref=e811] [cursor=pointer]:
+                        - /url: https://payloadcms.com/docs/plugins/nested-docs
+                      - text: for more details.
+                - generic [ref=e812]:
+                  - heading "Globals" [level=3] [ref=e813]
+                  - 'link "Permalink: Globals" [ref=e814] [cursor=pointer]':
+                    - /url: "#globals"
+                - paragraph [ref=e817]:
+                  - text: See the
+                  - link "Globals" [ref=e818] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/configuration/globals
+                  - text: docs for details on how to extend this functionality.
+                - list [ref=e819]:
+                  - listitem [ref=e820]:
+                    - paragraph [ref=e821]:
+                      - code [ref=e822]: Header
+                    - paragraph [ref=e823]: The data required by the header on your front-end like nav links.
+                  - listitem [ref=e824]:
+                    - paragraph [ref=e825]:
+                      - code [ref=e826]: Footer
+                    - paragraph [ref=e827]: Same as above but for the footer of your site.
+                - generic [ref=e828]:
+                  - heading "Access control" [level=2] [ref=e829]
+                  - 'link "Permalink: Access control" [ref=e830] [cursor=pointer]':
+                    - /url: "#access-control"
+                - paragraph [ref=e833]: Basic access control is setup to limit access to various content based based on publishing status.
+                - list [ref=e834]:
+                  - listitem [ref=e835]:
+                    - code [ref=e836]: users
+                    - text: ": Users can access the admin panel and create or edit content."
+                  - listitem [ref=e837]:
+                    - code [ref=e838]: posts
+                    - text: ": Everyone can access published posts, but only users can create, update, or delete them."
+                  - listitem [ref=e839]:
+                    - code [ref=e840]: pages
+                    - text: ": Everyone can access published pages, but only users can create, update, or delete them."
+                - paragraph [ref=e841]:
+                  - text: For more details on how to extend this functionality, see the
+                  - link "Payload Access Control" [ref=e842] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/access-control/overview#access-control
+                  - text: docs.
+                - generic [ref=e843]:
+                  - heading "Layout Builder" [level=2] [ref=e844]
+                  - 'link "Permalink: Layout Builder" [ref=e845] [cursor=pointer]':
+                    - /url: "#layout-builder"
+                - paragraph [ref=e848]: "Create unique page layouts for any type of content using a powerful layout builder. This template comes pre-configured with the following layout building blocks:"
+                - list [ref=e849]:
+                  - listitem [ref=e850]: Hero
+                  - listitem [ref=e851]: Content
+                  - listitem [ref=e852]: Media
+                  - listitem [ref=e853]: Call To Action
+                  - listitem [ref=e854]: Archive
+                - paragraph [ref=e855]:
+                  - text: Each block is fully designed and built into the front-end website that comes with this template. See
+                  - link "Website" [ref=e856] [cursor=pointer]:
+                    - /url: "#website"
+                  - text: for more details.
+                - generic [ref=e857]:
+                  - heading "Lexical editor" [level=2] [ref=e858]
+                  - 'link "Permalink: Lexical editor" [ref=e859] [cursor=pointer]':
+                    - /url: "#lexical-editor"
+                - paragraph [ref=e862]:
+                  - text: A deep editorial experience that allows complete freedom to focus just on writing content without breaking out of the flow with support for Payload blocks, media, links and other features provided out of the box. See
+                  - link "Lexical" [ref=e863] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/rich-text/overview
+                  - text: docs.
+                - generic [ref=e864]:
+                  - heading "Draft Preview" [level=2] [ref=e865]
+                  - 'link "Permalink: Draft Preview" [ref=e866] [cursor=pointer]':
+                    - /url: "#draft-preview"
+                - paragraph [ref=e869]:
+                  - text: All posts and pages are draft-enabled so you can preview them before publishing them to your website. To do this, these collections use
+                  - link "Versions" [ref=e870] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/configuration/collections#versions
+                  - text: with
+                  - code [ref=e871]: drafts
+                  - text: set to
+                  - code [ref=e872]: "true"
+                  - text: . This means that when you create a new post, project, or page, it will be saved as a draft and will not be visible on your website until you publish it. This also means that you can preview your draft before publishing it to your website. To do this, we automatically format a custom URL which redirects to your front-end to securely fetch the draft version of your content.
+                - paragraph [ref=e873]:
+                  - text: Since the front-end of this template is statically generated, this also means that pages, posts, and projects will need to be regenerated as changes are made to published documents. To do this, we use an
+                  - code [ref=e874]: afterChange
+                  - text: hook to regenerate the front-end when a document has changed and its
+                  - code [ref=e875]: _status
+                  - text: is
+                  - code [ref=e876]: published
+                  - text: .
+                - paragraph [ref=e877]:
+                  - text: For more details on how to extend this functionality, see the official
+                  - link "Draft Preview Example" [ref=e878] [cursor=pointer]:
+                    - /url: https://github.com/payloadcms/payload/tree/3.x/examples/draft-preview
+                  - text: .
+                - generic [ref=e879]:
+                  - heading "Live preview" [level=2] [ref=e880]
+                  - 'link "Permalink: Live preview" [ref=e881] [cursor=pointer]':
+                    - /url: "#live-preview"
+                - paragraph [ref=e884]:
+                  - text: In addition to draft previews you can also enable live preview to view your end resulting page as you're editing content with full support for SSR rendering. See
+                  - link "Live preview docs" [ref=e885] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/live-preview/overview
+                  - text: for more details.
+                - generic [ref=e886]:
+                  - heading "On-demand Revalidation" [level=2] [ref=e887]
+                  - 'link "Permalink: On-demand Revalidation" [ref=e888] [cursor=pointer]':
+                    - /url: "#on-demand-revalidation"
+                - paragraph [ref=e891]: We've added hooks to collections and globals so that all of your pages, posts, footer, or header changes will automatically be updated in the frontend via on-demand revalidation supported by Nextjs.
+                - blockquote [ref=e892]:
+                  - paragraph [ref=e893]: "Note: if an image has been changed, for example it's been cropped, you will need to republish the page it's used on in order to be able to revalidate the Nextjs image cache."
+                - generic [ref=e894]:
+                  - heading "SEO" [level=2] [ref=e895]
+                  - 'link "Permalink: SEO" [ref=e896] [cursor=pointer]':
+                    - /url: "#seo"
+                - paragraph [ref=e899]:
+                  - text: This template comes pre-configured with the official
+                  - link "Payload SEO Plugin" [ref=e900] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/plugins/seo
+                  - text: for complete SEO control from the admin panel. All SEO data is fully integrated into the front-end website that comes with this template. See
+                  - link "Website" [ref=e901] [cursor=pointer]:
+                    - /url: "#website"
+                  - text: for more details.
+                - generic [ref=e902]:
+                  - heading "Search" [level=2] [ref=e903]
+                  - 'link "Permalink: Search" [ref=e904] [cursor=pointer]':
+                    - /url: "#search"
+                - paragraph [ref=e907]:
+                  - text: This template also pre-configured with the official
+                  - link "Payload Search Plugin" [ref=e908] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/plugins/search
+                  - text: to showcase how SSR search features can easily be implemented into Next.js with Payload. See
+                  - link "Website" [ref=e909] [cursor=pointer]:
+                    - /url: "#website"
+                  - text: for more details.
+                - generic [ref=e910]:
+                  - heading "Redirects" [level=2] [ref=e911]
+                  - 'link "Permalink: Redirects" [ref=e912] [cursor=pointer]':
+                    - /url: "#redirects"
+                - paragraph [ref=e915]:
+                  - text: If you are migrating an existing site or moving content to a new URL, you can use the
+                  - code [ref=e916]: redirects
+                  - text: collection to create a proper redirect from old URLs to new ones. This will ensure that proper request status codes are returned to search engines and that your users are not left with a broken link. This template comes pre-configured with the official
+                  - link "Payload Redirects Plugin" [ref=e917] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/plugins/redirects
+                  - text: for complete redirect control from the admin panel. All redirects are fully integrated into the front-end website that comes with this template. See
+                  - link "Website" [ref=e918] [cursor=pointer]:
+                    - /url: "#website"
+                  - text: for more details.
+                - generic [ref=e919]:
+                  - heading "Jobs and Scheduled Publish" [level=2] [ref=e920]
+                  - 'link "Permalink: Jobs and Scheduled Publish" [ref=e921] [cursor=pointer]':
+                    - /url: "#jobs-and-scheduled-publish"
+                - paragraph [ref=e924]:
+                  - text: We have configured
+                  - link "Scheduled Publish" [ref=e925] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/versions/drafts#scheduled-publish
+                  - text: which uses the
+                  - link "jobs queue" [ref=e926] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/jobs-queue/jobs
+                  - text: in order to publish or unpublish your content on a scheduled time. The tasks are run on a cron schedule and can also be run as a separate instance if needed.
+                - blockquote [ref=e927]:
+                  - paragraph [ref=e928]: "Note: When deployed on Vercel, depending on the plan tier, you may be limited to daily cron only."
+                - generic [ref=e929]:
+                  - heading "Website" [level=2] [ref=e930]
+                  - 'link "Permalink: Website" [ref=e931] [cursor=pointer]':
+                    - /url: "#website"
+                - paragraph [ref=e934]:
+                  - text: This template includes a beautifully designed, production-ready front-end built with the
+                  - link "Next.js App Router" [ref=e935] [cursor=pointer]:
+                    - /url: https://nextjs.org
+                  - text: ", served right alongside your Payload app in a instance. This makes it so that you can deploy both your backend and website where you need it."
+                - paragraph [ref=e936]: "Core features:"
+                - list [ref=e937]:
+                  - listitem [ref=e938]:
+                    - link "Next.js App Router" [ref=e939] [cursor=pointer]:
+                      - /url: https://nextjs.org
+                  - listitem [ref=e940]:
+                    - link "TypeScript" [ref=e941] [cursor=pointer]:
+                      - /url: https://www.typescriptlang.org
+                  - listitem [ref=e942]:
+                    - link "React Hook Form" [ref=e943] [cursor=pointer]:
+                      - /url: https://react-hook-form.com
+                  - listitem [ref=e944]:
+                    - link "Payload Admin Bar" [ref=e945] [cursor=pointer]:
+                      - /url: https://github.com/payloadcms/payload/tree/3.x/packages/admin-bar
+                  - listitem [ref=e946]:
+                    - link "TailwindCSS styling" [ref=e947] [cursor=pointer]:
+                      - /url: https://tailwindcss.com/
+                  - listitem [ref=e948]:
+                    - link "shadcn/ui components" [ref=e949] [cursor=pointer]:
+                      - /url: https://ui.shadcn.com/
+                  - listitem [ref=e950]: User Accounts and Authentication
+                  - listitem [ref=e951]: Fully featured blog
+                  - listitem [ref=e952]: Publication workflow
+                  - listitem [ref=e953]: Dark mode
+                  - listitem [ref=e954]: Pre-made layout building blocks
+                  - listitem [ref=e955]: SEO
+                  - listitem [ref=e956]: Search
+                  - listitem [ref=e957]: Redirects
+                  - listitem [ref=e958]: Live preview
+                - generic [ref=e959]:
+                  - heading "Cache" [level=3] [ref=e960]
+                  - 'link "Permalink: Cache" [ref=e961] [cursor=pointer]':
+                    - /url: "#cache"
+                - paragraph [ref=e964]:
+                  - text: Although Next.js includes a robust set of caching strategies out of the box, Payload Cloud proxies and caches all files through Cloudflare using the
+                  - link "Official Cloud Plugin" [ref=e965] [cursor=pointer]:
+                    - /url: https://www.npmjs.com/package/@payloadcms/payload-cloud
+                  - text: . This means that Next.js caching is not needed and is disabled by default. If you are hosting your app outside of Payload Cloud, you can easily reenable the Next.js caching mechanisms by removing the
+                  - code [ref=e966]: no-store
+                  - text: directive from all fetch requests in
+                  - code [ref=e967]: ./src/app/_api
+                  - text: and then removing all instances of
+                  - code [ref=e968]: export const dynamic = 'force-dynamic'
+                  - text: from pages files, such as
+                  - code [ref=e969]: ./src/app/(pages)/[slug]/page.tsx
+                  - text: . For more details, see the official
+                  - link "Next.js Caching Docs" [ref=e970] [cursor=pointer]:
+                    - /url: https://nextjs.org/docs/app/building-your-application/caching
+                  - text: .
+                - generic [ref=e971]:
+                  - heading "Development" [level=2] [ref=e972]
+                  - 'link "Permalink: Development" [ref=e973] [cursor=pointer]':
+                    - /url: "#development-1"
+                - paragraph [ref=e976]:
+                  - text: To spin up this example locally, follow the
+                  - link "Quick Start" [ref=e977] [cursor=pointer]:
+                    - /url: "#quick-start"
+                  - text: . Then
+                  - link "Seed" [ref=e978] [cursor=pointer]:
+                    - /url: "#seed"
+                  - text: the database with a few pages, posts, and projects.
+                - generic [ref=e979]:
+                  - heading "Working with Postgres" [level=3] [ref=e980]
+                  - 'link "Permalink: Working with Postgres" [ref=e981] [cursor=pointer]':
+                    - /url: "#working-with-postgres"
+                - paragraph [ref=e984]: Postgres and other SQL-based databases follow a strict schema for managing your data. In comparison to our MongoDB adapter, this means that there's a few extra steps to working with Postgres.
+                - paragraph [ref=e985]: Note that often times when making big schema changes you can run the risk of losing data if you're not manually migrating it.
+                - generic [ref=e986]:
+                  - heading "Local development" [level=4] [ref=e987]
+                  - 'link "Permalink: Local development" [ref=e988] [cursor=pointer]':
+                    - /url: "#local-development"
+                - paragraph [ref=e991]:
+                  - text: Ideally we recommend running a local copy of your database so that schema updates are as fast as possible. By default the Postgres adapter has
+                  - code [ref=e992]: "push: true"
+                  - text: for development environments. This will let you add, modify and remove fields and collections without needing to run any data migrations.
+                - paragraph [ref=e993]:
+                  - text: If your database is pointed to production you will want to set
+                  - code [ref=e994]: "push: false"
+                  - text: otherwise you will risk losing data or having your migrations out of sync.
+                - generic [ref=e995]:
+                  - heading "Migrations" [level=4] [ref=e996]
+                  - 'link "Permalink: Migrations" [ref=e997] [cursor=pointer]':
+                    - /url: "#migrations"
+                - paragraph [ref=e1000]:
+                  - link "Migrations" [ref=e1001] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/database/migrations
+                  - text: are essentially SQL code versions that keeps track of your schema. When deploy with Postgres you will need to make sure you create and then run your migrations.
+                - paragraph [ref=e1002]: Locally create a migration
+                - generic [ref=e1003]:
+                  - generic [ref=e1004]: pnpm payload migrate:create
+                  - button "Copy code to clipboard" [ref=e1006] [cursor=pointer]
+                - paragraph [ref=e1010]: This creates the migration files you will need to push alongside with your new configuration.
+                - paragraph [ref=e1011]:
+                  - text: On the server after building and before running
+                  - code [ref=e1012]: pnpm start
+                  - text: you will want to run your migrations
+                - generic [ref=e1013]:
+                  - generic [ref=e1014]: pnpm payload migrate
+                  - button "Copy code to clipboard" [ref=e1016] [cursor=pointer]
+                - paragraph [ref=e1020]: This command will check for any migrations that have not yet been run and try to run them and it will keep a record of migrations that have been run in the database.
+                - generic [ref=e1021]:
+                  - heading "Docker" [level=3] [ref=e1022]
+                  - 'link "Permalink: Docker" [ref=e1023] [cursor=pointer]':
+                    - /url: "#docker"
+                - paragraph [ref=e1026]:
+                  - text: Alternatively, you can use
+                  - link "Docker" [ref=e1027] [cursor=pointer]:
+                    - /url: https://www.docker.com
+                  - text: "to spin up this template locally. To do so, follow these steps:"
+                - list [ref=e1028]:
+                  - listitem [ref=e1029]:
+                    - text: Follow
+                    - link "steps 1 and 2 from above" [ref=e1030] [cursor=pointer]:
+                      - /url: "#development"
+                    - text: ", the docker-compose file will automatically use the"
+                    - code [ref=e1031]: .env
+                    - text: file in your project root
+                  - listitem [ref=e1032]:
+                    - text: Next run
+                    - code [ref=e1033]: docker-compose up
+                  - listitem [ref=e1034]:
+                    - text: Follow
+                    - link "steps 4 and 5 from above" [ref=e1035] [cursor=pointer]:
+                      - /url: "#development"
+                    - text: to login and create your first admin user
+                - paragraph [ref=e1036]: That's it! The Docker instance will help you get up and running quickly while also standardizing the development environment across your teams.
+                - generic [ref=e1037]:
+                  - heading "Seed" [level=3] [ref=e1038]
+                  - 'link "Permalink: Seed" [ref=e1039] [cursor=pointer]':
+                    - /url: "#seed"
+                - paragraph [ref=e1042]: To seed the database with a few pages, posts, and projects you can click the 'seed database' link from the admin panel.
+                - paragraph [ref=e1043]: "The seed script will also create a demo user for demonstration purposes only:"
+                - list [ref=e1044]:
+                  - listitem [ref=e1045]:
+                    - text: Demo Author
+                    - list [ref=e1046]:
+                      - listitem [ref=e1047]:
+                        - text: "Email:"
+                        - code [ref=e1048]: demo-author@payloadcms.com
+                      - listitem [ref=e1049]:
+                        - text: "Password:"
+                        - code [ref=e1050]: password
+                - blockquote [ref=e1051]:
+                  - paragraph [ref=e1052]: "NOTICE: seeding the database is destructive because it drops your current database to populate a fresh one from the seed template. Only run this command if you are starting a new project or can afford to lose your current data."
+                - generic [ref=e1053]:
+                  - heading "Production" [level=2] [ref=e1054]
+                  - 'link "Permalink: Production" [ref=e1055] [cursor=pointer]':
+                    - /url: "#production"
+                - paragraph [ref=e1058]: "To run Payload in production, you need to build and start the Admin panel. To do so, follow these steps:"
+                - list [ref=e1059]:
+                  - listitem [ref=e1060]:
+                    - text: Invoke the
+                    - code [ref=e1061]: next build
+                    - text: script by running
+                    - code [ref=e1062]: pnpm build
+                    - text: or
+                    - code [ref=e1063]: npm run build
+                    - text: in your project root. This creates a
+                    - code [ref=e1064]: .next
+                    - text: directory with a production-ready admin bundle.
+                  - listitem [ref=e1065]:
+                    - text: Finally run
+                    - code [ref=e1066]: pnpm start
+                    - text: or
+                    - code [ref=e1067]: npm run start
+                    - text: to run Node in production and serve Payload from the
+                    - code [ref=e1068]: .build
+                    - text: directory.
+                  - listitem [ref=e1069]: When you're ready to go live, see Deployment below for more details.
+                - generic [ref=e1070]:
+                  - heading "Deploying to Vercel" [level=3] [ref=e1071]
+                  - 'link "Permalink: Deploying to Vercel" [ref=e1072] [cursor=pointer]':
+                    - /url: "#deploying-to-vercel"
+                - paragraph [ref=e1075]: "This template can also be deployed to Vercel for free. You can get started by choosing the Vercel DB adapter during the setup of the template or by manually installing and configuring it:"
+                - generic [ref=e1076]:
+                  - generic [ref=e1077]: pnpm add @payloadcms/db-vercel-postgres
+                  - button "Copy code to clipboard" [ref=e1079] [cursor=pointer]
+                - generic [ref=e1083]:
+                  - generic [ref=e1084]: "// payload.config.ts import { vercelPostgresAdapter } from '@payloadcms/db-vercel-postgres' export default buildConfig({ // ... db: vercelPostgresAdapter({ pool: { connectionString: process.env.POSTGRES_URL || '', }, }), // ..."
+                  - button "Copy code to clipboard" [ref=e1086] [cursor=pointer]
+                - paragraph [ref=e1090]: "We also support Vercel's blob storage:"
+                - generic [ref=e1091]:
+                  - generic [ref=e1092]: pnpm add @payloadcms/storage-vercel-blob
+                  - button "Copy code to clipboard" [ref=e1094] [cursor=pointer]
+                - generic [ref=e1098]:
+                  - generic [ref=e1099]: "// payload.config.ts import { vercelBlobStorage } from '@payloadcms/storage-vercel-blob' export default buildConfig({ // ... plugins: [ vercelBlobStorage({ collections: { [Media.slug]: true, }, token: process.env.BLOB_READ_WRITE_TOKEN || '', }), ], // ..."
+                  - button "Copy code to clipboard" [ref=e1101] [cursor=pointer]
+                - paragraph [ref=e1105]:
+                  - text: There is also a simplified
+                  - link "one click deploy" [ref=e1106] [cursor=pointer]:
+                    - /url: https://github.com/payloadcms/payload/tree/3.x/templates/with-vercel-postgres
+                  - text: to Vercel should you need it.
+                - generic [ref=e1107]:
+                  - heading "Self-hosting" [level=3] [ref=e1108]
+                  - 'link "Permalink: Self-hosting" [ref=e1109] [cursor=pointer]':
+                    - /url: "#self-hosting"
+                - paragraph [ref=e1112]: "Before deploying your app, you need to:"
+                - list [ref=e1113]:
+                  - listitem [ref=e1114]:
+                    - text: Ensure your app builds and serves in production. See
+                    - link "Production" [ref=e1115] [cursor=pointer]:
+                      - /url: "#production"
+                    - text: for more details.
+                  - listitem [ref=e1116]: You can then deploy Payload as you would any other Node.js or Next.js application either directly on a VPS, DigitalOcean's Apps Platform, via Coolify or more. More guides coming soon.
+                - paragraph [ref=e1117]:
+                  - text: You can also deploy your app manually, check out the
+                  - link "deployment documentation" [ref=e1118] [cursor=pointer]:
+                    - /url: https://payloadcms.com/docs/production/deployment
+                  - text: for full details.
+                - generic [ref=e1119]:
+                  - heading "Questions" [level=2] [ref=e1120]
+                  - 'link "Permalink: Questions" [ref=e1121] [cursor=pointer]':
+                    - /url: "#questions"
+                - paragraph [ref=e1124]:
+                  - text: If you have any issues or questions, reach out to us on
+                  - link "Discord" [ref=e1125] [cursor=pointer]:
+                    - /url: https://discord.com/invite/payload
+                  - text: or start a
+                  - link "GitHub discussion" [ref=e1126] [cursor=pointer]:
+                    - /url: https://github.com/payloadcms/payload/discussions
+                  - text: .
+        - generic [ref=e1129]:
+          - generic [ref=e1130]:
+            - heading "About" [level=2] [ref=e1131]
+            - generic [ref=e1132]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=e1133]
+            - link "Readme" [ref=e1135] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+            - link "Activity" [ref=e1139] [cursor=pointer]:
+              - /url: /timedev-net/ccdtecnologia/activity
+            - heading "Stars" [level=3] [ref=e1142]
+            - generic [ref=e1144]:
+              - strong [ref=e1147]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1148]
+            - generic [ref=e1150]:
+              - strong [ref=e1153]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1154]
+            - link [ref=e1156] [cursor=pointer]:
+              - /url: /timedev-net/ccdtecnologia/forks
+              - strong [ref=e1160]: "0"
+              - text: forks
+            - link "Report repository" [ref=e1162] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Ftimedev-net%2Fccdtecnologia&report=timedev-net+%28user%29
+          - heading "Releases" [level=2] [ref=e1164]
+          - heading "Packages" [level=2] [ref=e1168]
+          - heading "Contributors" [level=2] [ref=e1171]
+          - heading "Languages" [level=2] [ref=e1174]
+    - contentinfo [ref=e1177]:
+      - heading "Footer" [level=2] [ref=e1178]
+      - generic [ref=e1179]:
+        - generic [ref=e1180]:
+          - link "GitHub Homepage" [ref=e1181] [cursor=pointer]:
+            - /url: https://github.com
+          - generic [ref=e1184]: © 2026 GitHub, Inc.
+        - navigation "Footer" [ref=e1185]:
+          - heading "Footer navigation" [level=3] [ref=e1186]
+          - list "Footer navigation" [ref=e1187]:
+            - listitem [ref=e1188]:
+              - link "Terms" [ref=e1189] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+            - listitem [ref=e1190]:
+              - link "Privacy" [ref=e1191] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+            - listitem [ref=e1192]:
+              - link "Security" [ref=e1193] [cursor=pointer]:
+                - /url: https://github.com/security
+            - listitem [ref=e1194]:
+              - link "Status" [ref=e1195] [cursor=pointer]:
+                - /url: https://www.githubstatus.com/
+            - listitem [ref=e1196]:
+              - link "Community" [ref=e1197] [cursor=pointer]:
+                - /url: https://github.community/
+            - listitem [ref=e1198]:
+              - link "Docs" [ref=e1199] [cursor=pointer]:
+                - /url: https://docs.github.com/
+            - listitem [ref=e1200]:
+              - link "Contact" [ref=e1201] [cursor=pointer]:
+                - /url: https://support.github.com?tags=dotcom-footer
+            - listitem [ref=e1202]:
+              - button "Manage cookies" [ref=e1204] [cursor=pointer]
+            - listitem [ref=e1205]:
+              - button "Do not share my personal information" [ref=e1207] [cursor=pointer]
+  - alert [ref=e1210]

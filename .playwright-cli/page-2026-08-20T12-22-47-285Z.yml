@@ -1,0 +1,283 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic [ref=f3e3]:
+      - button "Dismiss sponsorship reminder" [ref=f3e4]
+      - heading "Love Coolify? Support our work." [level=2] [ref=f3e10]
+      - link "GitHub Sponsors" [ref=f3e13] [cursor=pointer]:
+        - /url: https://github.com/sponsors/coollabsio
+    - generic [ref=f3e18]:
+      - button "Dismiss notifications reminder" [ref=f3e19]
+      - heading "No notifications enabled" [level=2] [ref=f3e29]
+      - link "Open notifications" [ref=f3e33] [cursor=pointer]:
+        - /url: https://coolify.ccdtecnologia.com/notifications/email
+  - generic [ref=f3e35]:
+    - banner [ref=f3e36]:
+      - generic [ref=f3e37]:
+        - generic [ref=f3e38]:
+          - link "Coolify" [ref=f3e39] [cursor=pointer]:
+            - /url: /
+          - link "v4.3.9" [ref=f3e41] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.3.9
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f3e42]:
+        - generic [ref=f3e44]:
+          - button "Root Team" [ref=f3e48]
+          - generic [ref=f3e52]: /
+          - button "website" [ref=f3e54]
+          - generic [ref=f3e58]: /
+          - button "production" [ref=f3e60]
+          - generic [ref=f3e64]: /
+          - generic [ref=f3e66]:
+            - button "postgresql-database-w9djwbsbqrlcze8youwcqcfx" [ref=f3e67]
+            - button "Exited" [ref=f3e73] [cursor=pointer]
+        - button "Start" [ref=f3e85] [cursor=pointer]
+    - navigation [ref=f3e88]:
+      - button "Search ⌘K" [ref=f3e90]:
+        - generic [ref=f3e91]: Search
+        - generic [ref=f3e95]: ⌘K
+      - list [ref=f3e96]:
+        - listitem [ref=f3e97]: Workspace
+        - listitem [ref=f3e98]:
+          - link "Dashboard" [ref=f3e99] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f3e104]:
+          - link "Projects" [ref=f3e105] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=f3e112]:
+          - link "Terminal" [ref=f3e113] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/terminal
+        - listitem [ref=f3e119]: Infrastructure
+        - listitem [ref=f3e120]:
+          - link "Servers" [ref=f3e121] [cursor=pointer]:
+            - /url: /servers
+        - listitem [ref=f3e125]:
+          - link "Sources" [ref=f3e126] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/sources
+        - listitem [ref=f3e132]:
+          - link "Destinations" [ref=f3e133] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/destinations
+        - listitem [ref=f3e137]:
+          - link "S3 Storage" [ref=f3e138] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/storages
+        - listitem [ref=f3e142]:
+          - link "Shared Variables" [ref=f3e143] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/shared-variables
+        - listitem [ref=f3e152]: Manage
+        - listitem [ref=f3e153]:
+          - link "Team" [ref=f3e154] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/team
+        - listitem [ref=f3e163]:
+          - link "Notifications" [ref=f3e164] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+        - listitem [ref=f3e168]:
+          - link "Keys & Tokens" [ref=f3e169] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/security/private-key
+        - listitem [ref=f3e174]:
+          - link "Tags" [ref=f3e175] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/tags
+        - listitem [ref=f3e179]:
+          - link "Settings" [ref=f3e180] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/settings
+        - listitem [ref=f3e185]
+      - generic [ref=f3e186]:
+        - button "Account menu for Daniel de Brito Frota" [ref=f3e188]:
+          - generic [ref=f3e189]: D
+          - generic [ref=f3e190]: Daniel de Brito Frota
+        - button "Toggle sidebar" [ref=f3e193]
+    - main [ref=f3e196]:
+      - generic [ref=f3e198]:
+        - navigation
+        - generic [ref=f3e200]:
+          - complementary [ref=f3e201]:
+            - navigation "Database settings" [ref=f3e202]:
+              - generic [ref=f3e203]: Settings
+              - link "General" [ref=f3e204] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx
+              - generic [ref=f3e209]:
+                - button "Database details" [ref=f3e210]
+                - button "Credentials" [ref=f3e212]
+                - button "Initialization" [ref=f3e214]
+                - button "Runtime and network" [ref=f3e216]
+                - button "Public access" [ref=f3e218]
+                - button "Configuration" [ref=f3e220]
+                - button "Log delivery" [ref=f3e222]
+                - button "Initialization scripts" [ref=f3e224]
+              - link "Environment Variables" [ref=f3e226] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/environment-variables
+              - link "Persistent Storage" [ref=f3e235] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/persistent-storage
+              - link "Healthcheck" [ref=f3e239] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/healthcheck
+              - generic [ref=f3e244]: Observe & troubleshoot
+              - link "Runtime Logs" [ref=f3e245] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/logs
+              - link "Terminal" [ref=f3e251] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/terminal
+              - link "Metrics" [ref=f3e257] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/metrics
+              - generic [ref=f3e263]: Deploy
+              - link "Servers" [ref=f3e264] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/servers
+              - generic [ref=f3e269]: Automation
+              - link "Webhooks" [ref=f3e270] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/webhooks
+              - link "Backups" [ref=f3e274] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/backups
+              - link "Import Backup" [ref=f3e278] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/import-backup
+              - generic [ref=f3e284]: Operations
+              - link "Resource Operations" [ref=f3e285] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/resource-operations
+              - link "Resource Limits" [ref=f3e289] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/resource-limits
+              - link "Tags" [ref=f3e293] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/tags
+              - link "Danger Zone" [ref=f3e297] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx/danger
+          - generic [ref=f3e304]:
+            - generic [ref=f3e305]:
+              - generic:
+                - generic: You have changes that haven't been saved yet.
+                - generic:
+                  - button "Reset"
+                  - button "Save changes Enter":
+                    - generic: Save changes
+                    - generic: Enter
+              - generic [ref=f3e306]:
+                - generic [ref=f3e307]:
+                  - heading [level=3] [ref=f3e309]:
+                    - button "More information about Database details" [ref=f3e311] [cursor=pointer]:
+                      - generic [ref=f3e312]: Database details
+                  - button "Details" [ref=f3e315] [cursor=pointer]
+                - generic [ref=f3e317]:
+                  - generic [ref=f3e318]:
+                    - generic [ref=f3e319]: Name
+                    - textbox [ref=f3e534]: ccd-postgres
+                  - generic [ref=f3e322]:
+                    - generic [ref=f3e323]: Description
+                    - textbox [ref=f3e535]
+                  - generic [ref=f3e327]:
+                    - generic [ref=f3e328]:
+                      - generic [ref=f3e329]:
+                        - text: Image
+                        - generic [ref=f3e330]: "*"
+                      - button "More information" [ref=f3e332] [cursor=pointer]
+                    - textbox [ref=f3e536]: postgres:18-alpine
+              - generic [ref=f3e338]:
+                - heading [level=3] [ref=f3e341]:
+                  - button "More information about Credentials" [ref=f3e343] [cursor=pointer]:
+                    - generic [ref=f3e344]: Credentials
+                - generic [ref=f3e346]:
+                  - generic [ref=f3e347]:
+                    - generic [ref=f3e348]: Username
+                    - 'textbox "If empty: postgres" [ref=f3e537]': postgres
+                  - generic [ref=f3e351]:
+                    - generic [ref=f3e353]:
+                      - text: Password
+                      - generic [ref=f3e354]: "*"
+                    - generic [ref=f3e355]:
+                      - textbox [ref=f3e538]: 05PEedDsNb5agMB74uA3kU1hCER92o1xKgcOtO5a8lUTiE9IEDe14F0i9uFQAuVF
+                      - button "Toggle password visibility" [ref=f3e357] [cursor=pointer]
+                  - generic [ref=f3e361]:
+                    - generic [ref=f3e362]: Initial database
+                    - textbox "If empty, it will match the username." [ref=f3e539]: ccdtecnologia
+              - generic [ref=f3e365]:
+                - heading [level=3] [ref=f3e368]:
+                  - button "More information about Initialization" [ref=f3e370] [cursor=pointer]:
+                    - generic [ref=f3e371]: Initialization
+                - generic [ref=f3e373]:
+                  - generic [ref=f3e374]:
+                    - generic [ref=f3e375]: Initial database arguments
+                    - textbox "Leave empty to use the image default." [ref=f3e540]
+                  - generic [ref=f3e378]:
+                    - generic [ref=f3e379]: Host authentication method
+                    - textbox "Leave empty to use the image default." [ref=f3e541]
+              - generic [ref=f3e382]:
+                - heading [level=3] [ref=f3e385]:
+                  - button "More information about Runtime and network" [ref=f3e387] [cursor=pointer]:
+                    - generic [ref=f3e388]: Runtime and network
+                - generic [ref=f3e389]:
+                  - generic [ref=f3e390]:
+                    - generic [ref=f3e392]:
+                      - generic [ref=f3e393]:
+                        - generic [ref=f3e394]: Custom Docker options
+                        - button "More information" [ref=f3e396] [cursor=pointer]
+                      - textbox "--cap-add SYS_ADMIN --device=/dev/fuse" [ref=f3e542]
+                    - generic [ref=f3e402]:
+                      - generic [ref=f3e403]:
+                        - generic [ref=f3e404]: Port mappings
+                        - button "More information" [ref=f3e406] [cursor=pointer]
+                      - textbox "3000:5432" [ref=f3e543]
+                  - generic [ref=f3e414]:
+                    - generic [ref=f3e415]:
+                      - generic [ref=f3e416]:
+                        - generic [ref=f3e417]: Postgres URL (internal)
+                        - button "More information" [ref=f3e419] [cursor=pointer]
+                      - generic [ref=f3e424]:
+                        - textbox [ref=f3e544]: postgres://postgres:05PEedDsNb5agMB74uA3kU1hCER92o1xKgcOtO5a8lUTiE9IEDe14F0i9uFQAuVF@w9djwbsbqrlcze8youwcqcfx:5432/ccdtecnologia
+                        - button "Toggle password visibility" [ref=f3e426] [cursor=pointer]
+                    - generic [ref=f3e430]:
+                      - generic [ref=f3e432]:
+                        - heading "SSL configuration" [level=3] [ref=f3e433]
+                        - paragraph [ref=f3e434]: Encryption settings can only be changed while the database is stopped.
+                      - generic [ref=f3e435]:
+                        - generic [ref=f3e436]:
+                          - generic [ref=f3e437]: SSL
+                          - button "SSL" [ref=f3e440] [cursor=pointer]:
+                            - generic [ref=f3e441]: Disabled
+                        - generic [ref=f3e444]:
+                          - generic [ref=f3e445]:
+                            - generic [ref=f3e446]: SSL mode
+                            - button "More information" [ref=f3e448] [cursor=pointer]
+                          - button "SSL mode" [disabled] [ref=f3e454]:
+                            - generic [ref=f3e455]: require (secure)
+              - generic [ref=f3e458]:
+                - heading [level=3] [ref=f3e461]:
+                  - button "More information about Public access" [ref=f3e463] [cursor=pointer]:
+                    - generic [ref=f3e464]: Public access
+                - generic [ref=f3e466]:
+                  - generic [ref=f3e468]:
+                    - generic [ref=f3e469]: Access
+                    - button "Access" [ref=f3e472] [cursor=pointer]:
+                      - generic [ref=f3e473]: Private
+                  - generic [ref=f3e476]:
+                    - generic [ref=f3e477]: Public port
+                    - spinbutton "5432" [ref=f3e545]
+                  - generic [ref=f3e480]:
+                    - generic [ref=f3e481]:
+                      - generic [ref=f3e482]: Proxy timeout
+                      - button "More information" [ref=f3e484] [cursor=pointer]
+                    - spinbutton "3600" [ref=f3e546]
+              - generic [ref=f3e490]:
+                - heading [level=3] [ref=f3e493]:
+                  - button "More information about Configuration" [ref=f3e495] [cursor=pointer]:
+                    - generic [ref=f3e496]: Configuration
+                - generic [ref=f3e498]:
+                  - generic [ref=f3e499]: Custom PostgreSQL configuration
+                  - textbox [ref=f3e547]
+              - generic [ref=f3e502]:
+                - heading [level=3] [ref=f3e505]:
+                  - button "More information about Log delivery" [ref=f3e507] [cursor=pointer]:
+                    - generic [ref=f3e508]: Log delivery
+                - generic [ref=f3e510]:
+                  - generic [ref=f3e511]: Log drain
+                  - button "Log drain" [ref=f3e514] [cursor=pointer]:
+                    - generic [ref=f3e515]: Do not forward logs
+            - generic [ref=f3e518]:
+              - generic [ref=f3e519]:
+                - heading [level=3] [ref=f3e521]:
+                  - button "More information about Initialization scripts" [ref=f3e523] [cursor=pointer]:
+                    - generic [ref=f3e524]: Initialization scripts
+                - button "+ Add" [ref=f3e527] [cursor=pointer]
+              - generic [ref=f3e530]:
+                - heading "No initialization scripts" [level=2] [ref=f3e531]
+                - paragraph [ref=f3e532]: Add a SQL file to run during the first PostgreSQL initialization.
+  - list [ref=f3e548]:
+    - listitem [ref=f3e549]:
+      - generic [ref=f3e555]:
+        - paragraph [ref=f3e556]: Success
+        - generic [ref=f3e557]: Database updated.
+      - button "Copy details" [ref=f3e558]
+      - button "Dismiss" [ref=f3e561]

@@ -1,0 +1,22 @@
+[   23643ms] [WARNING] Livewire: [wire:model="showNormalTextarea"] property does not exist on component: [project.service.edit-compose] JSHandle@node @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:82
+[   64485ms] [WARNING] Livewire: [wire:model="showNormalTextarea"] property does not exist on component: [project.service.edit-compose] JSHandle@node @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:82
+[ 1539773ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 1659935ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 1662650ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 1662797ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2387481ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2494152ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2494153ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2621979ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2731527ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2744660ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2850953ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 2859084ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 3174343ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 3797134ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 4385569ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 4531530ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 4531531ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 4531532ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 4531584ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 4531587ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://coolify.ccdtecnologia.com/livewire/update:0

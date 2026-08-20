@@ -1,0 +1,112 @@
+- generic [active] [ref=f4e256]:
+  - generic:
+    - generic [ref=f4e258]:
+      - button "Dismiss sponsorship reminder" [ref=f4e259]
+      - generic [ref=f4e264]:
+        - heading "Love Coolify? Support our work." [level=2] [ref=f4e265]
+        - paragraph [ref=f4e266]: Coolify is profitable thanks to you. Your support helps us build more features and keep improving the project.
+      - generic [ref=f4e267]:
+        - link "GitHub Sponsors" [ref=f4e268] [cursor=pointer]:
+          - /url: https://github.com/sponsors/coollabsio
+        - link "Open Collective" [ref=f4e269] [cursor=pointer]:
+          - /url: https://opencollective.com/coollabsio/donate?interval=month&amount=10&name=&legalName=&email=
+        - link "Stripe" [ref=f4e270] [cursor=pointer]:
+          - /url: https://donate.stripe.com/8x2bJ104ifmB9kB45u38402
+        - button "Maybe next time" [ref=f4e271] [cursor=pointer]
+    - generic [ref=f4e273]:
+      - button "Dismiss notifications reminder" [ref=f4e274]
+      - generic [ref=f4e283]:
+        - heading "No notifications enabled" [level=2] [ref=f4e284]
+        - paragraph [ref=f4e285]:
+          - text: Enable at least one notification channel so you receive important alerts. Visit
+          - link "notifications" [ref=f4e286] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+          - text: to get started.
+      - generic [ref=f4e287]:
+        - link "Open notifications" [ref=f4e288] [cursor=pointer]:
+          - /url: https://coolify.ccdtecnologia.com/notifications/email
+        - button "Accept and close" [ref=f4e289] [cursor=pointer]
+  - generic [ref=f4e290]:
+    - banner [ref=f4e291]:
+      - generic [ref=f4e292]:
+        - generic [ref=f4e293]:
+          - link "Coolify" [ref=f4e294] [cursor=pointer]:
+            - /url: /
+          - link "v4.3.9" [ref=f4e296] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.3.9
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f4e299]:
+        - button "Root Team" [ref=f4e303]
+        - generic [ref=f4e307]: /
+        - button "website" [ref=f4e309]
+        - generic [ref=f4e313]: /
+        - button "production" [ref=f4e315]
+    - navigation [ref=f4e321]:
+      - button "Search ⌘K" [ref=f4e323]:
+        - generic [ref=f4e324]: Search
+        - generic [ref=f4e328]: ⌘K
+      - list [ref=f4e329]:
+        - listitem [ref=f4e330]: Workspace
+        - listitem [ref=f4e331]:
+          - link "Dashboard" [ref=f4e332] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f4e337]:
+          - link "Projects" [ref=f4e338] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=f4e345]:
+          - link "Terminal" [ref=f4e346] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/terminal
+        - listitem [ref=f4e352]: Infrastructure
+        - listitem [ref=f4e353]:
+          - link "Servers" [ref=f4e354] [cursor=pointer]:
+            - /url: /servers
+        - listitem [ref=f4e358]:
+          - link "Sources" [ref=f4e359] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/sources
+        - listitem [ref=f4e365]:
+          - link "Destinations" [ref=f4e366] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/destinations
+        - listitem [ref=f4e370]:
+          - link "S3 Storage" [ref=f4e371] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/storages
+        - listitem [ref=f4e375]:
+          - link "Shared Variables" [ref=f4e376] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/shared-variables
+        - listitem [ref=f4e385]: Manage
+        - listitem [ref=f4e386]:
+          - link "Team" [ref=f4e387] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/team
+        - listitem [ref=f4e396]:
+          - link "Notifications" [ref=f4e397] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+        - listitem [ref=f4e401]:
+          - link "Keys & Tokens" [ref=f4e402] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/security/private-key
+        - listitem [ref=f4e407]:
+          - link "Tags" [ref=f4e408] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/tags
+        - listitem [ref=f4e412]:
+          - link "Settings" [ref=f4e413] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/settings
+        - listitem [ref=f4e418]
+      - generic [ref=f4e419]:
+        - button "Account menu for Daniel de Brito Frota" [ref=f4e421]:
+          - generic [ref=f4e422]: D
+          - generic [ref=f4e423]: Daniel de Brito Frota
+        - button "Toggle sidebar" [ref=f4e426]
+    - main [ref=f4e429]:
+      - generic [ref=f4e433]:
+        - generic [ref=f4e434]:
+          - generic [ref=f4e435]:
+            - heading "Choose a resource" [level=3] [ref=f4e437]
+            - button "Reload" [disabled] [ref=f4e439]
+          - generic [ref=f4e443]:
+            - searchbox "Search resources" [ref=f4e445]
+            - generic [ref=f4e446]:
+              - button "Filter" [ref=f4e449] [cursor=pointer]
+              - button "All categories" [disabled] [ref=f4e453]
+        - status [ref=f4e458]:
+          - generic [ref=f4e462]: Loading resources...
+  - list

@@ -1,0 +1,196 @@
+- generic [active] [ref=f8e1]:
+  - generic:
+    - generic [ref=f8e3]:
+      - button "Dismiss sponsorship reminder" [ref=f8e529]
+      - heading "Love Coolify? Support our work." [level=2] [ref=f8e530]
+      - link "GitHub Sponsors" [ref=f8e531] [cursor=pointer]:
+        - /url: https://github.com/sponsors/coollabsio
+    - generic [ref=f8e18]:
+      - button "Dismiss notifications reminder" [ref=f8e532]
+      - heading "No notifications enabled" [level=2] [ref=f8e533]
+      - link "Open notifications" [ref=f8e534] [cursor=pointer]:
+        - /url: https://coolify.ccdtecnologia.com/notifications/email
+  - generic [ref=f8e35]:
+    - banner [ref=f8e36]:
+      - generic [ref=f8e37]:
+        - generic [ref=f8e38]:
+          - link "Coolify" [ref=f8e535] [cursor=pointer]:
+            - /url: /
+          - link "v4.3.9" [ref=f8e536] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.3.9
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f8e42]:
+        - generic [ref=f8e44]:
+          - button "Root Team" [ref=f8e537]
+          - generic [ref=f8e52]: /
+          - button "website" [ref=f8e538]
+          - generic [ref=f8e58]: /
+          - button "production" [ref=f8e539]
+          - generic [ref=f8e64]: /
+          - generic [ref=f8e66]:
+            - button "service-9htptc4jofepfpemlo3yeghg" [ref=f8e540]
+            - button "Running (no healthcheck)" [ref=f8e541] [cursor=pointer]
+        - generic [ref=f8e83]:
+          - button "Links" [ref=f8e542]
+          - button "Actions" [ref=f8e543] [cursor=pointer]
+    - navigation [ref=f8e103]:
+      - button "Search ⌘K" [ref=f8e544]:
+        - generic [ref=f8e106]: Search
+        - generic [ref=f8e110]: ⌘K
+      - list [ref=f8e111]:
+        - listitem [ref=f8e112]: Workspace
+        - listitem [ref=f8e113]:
+          - link "Dashboard" [ref=f8e545] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f8e119]:
+          - link "Projects" [ref=f8e546] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=f8e127]:
+          - link "Terminal" [ref=f8e547] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/terminal
+        - listitem [ref=f8e134]: Infrastructure
+        - listitem [ref=f8e135]:
+          - link "Servers" [ref=f8e548] [cursor=pointer]:
+            - /url: /servers
+        - listitem [ref=f8e140]:
+          - link "Sources" [ref=f8e549] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/sources
+        - listitem [ref=f8e147]:
+          - link "Destinations" [ref=f8e550] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/destinations
+        - listitem [ref=f8e152]:
+          - link "S3 Storage" [ref=f8e551] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/storages
+        - listitem [ref=f8e157]:
+          - link "Shared Variables" [ref=f8e552] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/shared-variables
+        - listitem [ref=f8e167]: Manage
+        - listitem [ref=f8e168]:
+          - link "Team" [ref=f8e553] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/team
+        - listitem [ref=f8e178]:
+          - link "Notifications" [ref=f8e554] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+        - listitem [ref=f8e183]:
+          - link "Keys & Tokens" [ref=f8e555] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/security/private-key
+        - listitem [ref=f8e189]:
+          - link "Tags" [ref=f8e556] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/tags
+        - listitem [ref=f8e194]:
+          - link "Settings" [ref=f8e557] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/settings
+        - listitem [ref=f8e200]
+      - generic [ref=f8e201]:
+        - button "Account menu for Daniel de Brito Frota" [ref=f8e558]:
+          - generic [ref=f8e204]: D
+          - generic [ref=f8e205]: Daniel de Brito Frota
+        - button "Toggle sidebar" [ref=f8e559]
+    - main [ref=f8e211]:
+      - generic [ref=f8e213]:
+        - navigation
+        - generic [ref=f8e215]:
+          - complementary [ref=f8e216]:
+            - navigation "Service settings" [ref=f8e560]:
+              - generic [ref=f8e218]: Settings
+              - link "General" [ref=f8e561] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif
+              - link "Domains" [ref=f8e562] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/domains
+              - link "Environment Variables" [ref=f8e563] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/environment-variables
+              - link "Persistent Storage" [ref=f8e564] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/storages
+              - generic [ref=f8e242]: Observe & troubleshoot
+              - link "Runtime Logs" [ref=f8e565] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/logs
+              - link "Terminal" [ref=f8e566] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/terminal
+              - generic [ref=f8e256]: Automation
+              - link "Scheduled Tasks" [ref=f8e567] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/scheduled-tasks
+              - link "Webhooks" [ref=f8e568] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/webhooks
+              - link "Backups" [ref=f8e569] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/storage-backups
+              - generic [ref=f8e276]: Operations
+              - link "Resource Operations" [ref=f8e570] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/resource-operations
+              - link "Tags" [ref=f8e571] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/tags
+              - link "Danger Zone" [ref=f8e572] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/danger
+          - generic [ref=f8e291]:
+            - generic [ref=f8e292]:
+              - generic:
+                - generic: You have changes that haven't been saved yet.
+                - generic:
+                  - button "Reset"
+                  - button "Save changes Enter":
+                    - generic: Save changes
+                    - generic: Enter
+              - generic [ref=f8e293]:
+                - generic [ref=f8e294]:
+                  - heading [level=3] [ref=f8e573]:
+                    - button "More information about Service details" [ref=f8e574] [cursor=pointer]:
+                      - generic [ref=f8e299]: Service details
+                  - generic [ref=f8e301]:
+                    - button "Edit Compose file" [ref=f8e575] [cursor=pointer]
+                    - button "Details" [ref=f8e576] [cursor=pointer]
+                - generic [ref=f8e307]:
+                  - generic [ref=f8e308]:
+                    - generic [ref=f8e310]:
+                      - text: Service name
+                      - generic [ref=f8e311]: "*"
+                    - textbox "My WordPress site" [ref=f8e577]: ccd-minio
+                  - generic [ref=f8e313]:
+                    - generic [ref=f8e314]: Description
+                    - textbox [ref=f8e418]
+              - generic [ref=f8e317]:
+                - heading [level=3] [ref=f8e578]:
+                  - button "More information about Network" [ref=f8e579] [cursor=pointer]:
+                    - generic [ref=f8e323]: Network
+                - generic [ref=f8e325]:
+                  - generic [ref=f8e326]: Network attachment
+                  - button "Network attachment" [ref=f8e580] [cursor=pointer]:
+                    - generic [ref=f8e330]: Use the stack network only
+              - generic [ref=f8e333]:
+                - heading [level=3] [ref=f8e581]:
+                  - button "More information about Service configuration" [ref=f8e582] [cursor=pointer]:
+                    - generic [ref=f8e339]: Service configuration
+                - generic [ref=f8e342]:
+                  - generic [ref=f8e343]:
+                    - generic [ref=f8e344]: MinIO · Admin Password
+                    - button "More information" [ref=f8e583] [cursor=pointer]
+                  - generic [ref=f8e352]:
+                    - textbox [ref=f8e419]: "${SERVICE_PASSWORD_64_MINIO}"
+                    - button "Toggle password visibility" [ref=f8e584] [cursor=pointer]
+            - generic [ref=f8e358]:
+              - generic [ref=f8e359]:
+                - generic [ref=f8e360]:
+                  - heading "Compose resources" [level=2] [ref=f8e585]
+                  - paragraph [ref=f8e362]: Applications and databases defined in this service.
+                - generic [ref=f8e363]:
+                  - generic [ref=f8e364]:
+                    - button "Table view" [ref=f8e586]
+                    - button "Grid view" [ref=f8e587]
+                  - link "Documentation" [ref=f8e588] [cursor=pointer]:
+                    - /url: https://coolify.io/docs
+              - generic [ref=f8e381]:
+                - generic [ref=f8e382]:
+                  - generic [ref=f8e383]: Resource
+                  - generic [ref=f8e384]: Image
+                  - generic [ref=f8e385]: Status
+                - generic [ref=f8e388]:
+                  - generic [ref=f8e389]: Minio
+                  - generic [ref=f8e398]: minio/minio:RELEASE.2025-04-22T22-12-26Z
+                  - generic [ref=f8e399]:
+                    - generic [ref=f8e400]: Running (unknown)
+                    - link "Resource settings" [ref=f8e589] [cursor=pointer]:
+                      - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/ofh4pkhgh5plo0vlxdulv1i5
+  - list
+  - generic [ref=f8e409]:
+    - alert
+    - alert

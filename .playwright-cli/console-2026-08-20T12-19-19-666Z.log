@@ -1,0 +1,7 @@
+[   28479ms] [ERROR] Error: <svg> attribute height: Expected length, "NaN". @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:81
+[   28479ms] [ERROR] Error: <foreignObject> attribute height: Expected length, "NaN". @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:81
+[   28481ms] [ERROR] Error: <path> attribute d: Expected number, "M 0 NaN". @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:81
+[   28481ms] [ERROR] Error: <path> attribute d: Expected number, "M 0 NaN". @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:81
+[   28481ms] [ERROR] Error: <path> attribute d: Expected number, "M 0 NaN". @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:81
+[   28481ms] [ERROR] Error: <path> attribute d: Expected number, "M 0 NaN". @ https://coolify.ccdtecnologia.com/livewire/livewire.min.js?id=e5e7ff8c:81
+[  107182ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/database/w9djwbsbqrlcze8youwcqcfx:0

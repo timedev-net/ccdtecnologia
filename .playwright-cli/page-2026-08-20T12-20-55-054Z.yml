@@ -1,0 +1,131 @@
+- generic [active] [ref=f2e198]:
+  - generic:
+    - generic [ref=f2e200]:
+      - button "Dismiss sponsorship reminder" [ref=f2e201]
+      - heading "Love Coolify? Support our work." [level=2] [ref=f2e207]
+      - link "GitHub Sponsors" [ref=f2e210] [cursor=pointer]:
+        - /url: https://github.com/sponsors/coollabsio
+    - generic [ref=f2e215]:
+      - button "Dismiss notifications reminder" [ref=f2e216]
+      - heading "No notifications enabled" [level=2] [ref=f2e226]
+      - link "Open notifications" [ref=f2e230] [cursor=pointer]:
+        - /url: https://coolify.ccdtecnologia.com/notifications/email
+  - generic [ref=f2e232]:
+    - banner [ref=f2e233]:
+      - generic [ref=f2e234]:
+        - generic [ref=f2e235]:
+          - link "Coolify" [ref=f2e236] [cursor=pointer]:
+            - /url: /
+          - link "v4.3.9" [ref=f2e238] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.3.9
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f2e241]:
+        - button "Root Team" [ref=f2e245]
+        - generic [ref=f2e249]: /
+        - button "website" [ref=f2e251]
+        - generic [ref=f2e255]: /
+        - button "production" [ref=f2e257]
+    - navigation [ref=f2e263]:
+      - button "Search ⌘K" [ref=f2e265]:
+        - generic [ref=f2e266]: Search
+        - generic [ref=f2e270]: ⌘K
+      - list [ref=f2e271]:
+        - listitem [ref=f2e272]: Workspace
+        - listitem [ref=f2e273]:
+          - link "Dashboard" [ref=f2e274] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f2e279]:
+          - link "Projects" [ref=f2e280] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=f2e287]:
+          - link "Terminal" [ref=f2e288] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/terminal
+        - listitem [ref=f2e294]: Infrastructure
+        - listitem [ref=f2e295]:
+          - link "Servers" [ref=f2e296] [cursor=pointer]:
+            - /url: /servers
+        - listitem [ref=f2e300]:
+          - link "Sources" [ref=f2e301] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/sources
+        - listitem [ref=f2e307]:
+          - link "Destinations" [ref=f2e308] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/destinations
+        - listitem [ref=f2e312]:
+          - link "S3 Storage" [ref=f2e313] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/storages
+        - listitem [ref=f2e317]:
+          - link "Shared Variables" [ref=f2e318] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/shared-variables
+        - listitem [ref=f2e327]: Manage
+        - listitem [ref=f2e328]:
+          - link "Team" [ref=f2e329] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/team
+        - listitem [ref=f2e338]:
+          - link "Notifications" [ref=f2e339] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+        - listitem [ref=f2e343]:
+          - link "Keys & Tokens" [ref=f2e344] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/security/private-key
+        - listitem [ref=f2e349]:
+          - link "Tags" [ref=f2e350] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/tags
+        - listitem [ref=f2e354]:
+          - link "Settings" [ref=f2e355] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/settings
+        - listitem [ref=f2e360]
+      - generic [ref=f2e361]:
+        - button "Account menu for Daniel de Brito Frota" [ref=f2e363]:
+          - generic [ref=f2e364]: D
+          - generic [ref=f2e365]: Daniel de Brito Frota
+        - button "Toggle sidebar" [ref=f2e368]
+    - main [ref=f2e371]:
+      - generic [ref=f2e5390]:
+        - generic [ref=f2e5391]:
+          - heading "Select a PostgreSQL image" [level=2] [ref=f2e5392]
+          - paragraph [ref=f2e5393]: Use PostgreSQL 18 unless the workload needs bundled extensions.
+        - generic [ref=f2e5394]:
+          - generic [ref=f2e5395] [cursor=pointer]:
+            - generic [ref=f2e5396]:
+              - generic [ref=f2e5397]: PostgreSQL 18 Default
+              - generic [ref=f2e5398]: PostgreSQL is a powerful, open-source object-relational database system (no extensions).
+            - link "View documentation" [ref=f2e5399]:
+              - /url: https://hub.docker.com/_/postgres/
+          - generic [ref=f2e5402] [cursor=pointer]:
+            - generic [ref=f2e5403]:
+              - generic [ref=f2e5404]: PostgreSQL 17
+              - generic [ref=f2e5405]: PostgreSQL is a powerful, open-source object-relational database system (no extensions).
+            - link "View documentation" [ref=f2e5406]:
+              - /url: https://hub.docker.com/_/postgres/
+          - generic [ref=f2e5409] [cursor=pointer]:
+            - generic [ref=f2e5410]:
+              - generic [ref=f2e5411]: PostgreSQL 16
+              - generic [ref=f2e5412]: PostgreSQL is a powerful, open-source object-relational database system (no extensions).
+            - link "View documentation" [ref=f2e5413]:
+              - /url: https://hub.docker.com/_/postgres/
+          - generic [ref=f2e5416] [cursor=pointer]:
+            - generic [ref=f2e5417]:
+              - generic [ref=f2e5418]: Supabase PostgreSQL
+              - generic [ref=f2e5419]: Supabase is a modern, open-source alternative to PostgreSQL with lots of extensions.
+            - link "View documentation" [ref=f2e5420]:
+              - /url: https://github.com/supabase/postgres
+          - generic [ref=f2e5423] [cursor=pointer]:
+            - generic [ref=f2e5424]:
+              - generic [ref=f2e5425]: PostGIS AMD only
+              - generic [ref=f2e5426]: PostGIS is a PostgreSQL extension for geographic objects.
+            - link "View documentation" [ref=f2e5427]:
+              - /url: https://github.com/postgis/docker-postgis
+          - generic [ref=f2e5430] [cursor=pointer]:
+            - generic [ref=f2e5431]:
+              - generic [ref=f2e5432]: PGVector 18
+              - generic [ref=f2e5433]: PGVector is a PostgreSQL extension for vector data types.
+            - link "View documentation" [ref=f2e5434]:
+              - /url: https://github.com/pgvector/pgvector
+          - generic [ref=f2e5437] [cursor=pointer]:
+            - generic [ref=f2e5438]:
+              - generic [ref=f2e5439]: PGVector 17
+              - generic [ref=f2e5440]: PGVector is a PostgreSQL extension for vector data types.
+            - link "View documentation" [ref=f2e5441]:
+              - /url: https://github.com/pgvector/pgvector
+  - list

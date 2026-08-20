@@ -1,0 +1,159 @@
+- generic [ref=f1e255]:
+  - generic [ref=f1e257]:
+    - button [ref=f1e511]
+    - heading [level=2] [ref=f1e512]: Love Coolify? Support our work.
+    - link [ref=f1e513] [cursor=pointer]:
+      - /url: https://github.com/sponsors/coollabsio
+      - text: GitHub Sponsors
+  - generic [ref=f1e272]:
+    - button [ref=f1e514]
+    - heading [level=2] [ref=f1e515]: No notifications enabled
+    - link [ref=f1e516] [cursor=pointer]:
+      - /url: https://coolify.ccdtecnologia.com/notifications/email
+      - text: Open notifications
+  - generic [ref=f1e289]:
+    - banner [ref=f1e290]:
+      - generic [ref=f1e292]:
+        - link [ref=f1e517] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f1e294]: Coolify
+        - link [ref=f1e518] [cursor=pointer]:
+          - /url: https://github.com/coollabsio/coolify/releases/tag/v4.3.9
+          - text: v4.3.9
+      - generic [ref=f1e298]:
+        - button [ref=f1e519]:
+          - generic [ref=f1e303]: Root Team
+        - generic [ref=f1e306]: /
+        - button [ref=f1e520]:
+          - generic [ref=f1e309]: Projects
+    - navigation [ref=f1e314]:
+      - button [ref=f1e521]:
+        - generic [ref=f1e317]: Search
+        - generic [ref=f1e321]: ⌘K
+      - list [ref=f1e322]:
+        - listitem [ref=f1e323]: Workspace
+        - listitem [ref=f1e324]:
+          - link [ref=f1e522] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f1e329]: Dashboard
+        - listitem [ref=f1e330]:
+          - link [ref=f1e523] [cursor=pointer]:
+            - /url: /projects
+            - generic [ref=f1e337]: Projects
+        - listitem [ref=f1e338]:
+          - link [ref=f1e524] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/terminal
+            - generic [ref=f1e344]: Terminal
+        - listitem [ref=f1e345]: Infrastructure
+        - listitem [ref=f1e346]:
+          - link [ref=f1e525] [cursor=pointer]:
+            - /url: /servers
+            - generic [ref=f1e350]: Servers
+        - listitem [ref=f1e351]:
+          - link [ref=f1e526] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/sources
+            - generic [ref=f1e357]: Sources
+        - listitem [ref=f1e358]:
+          - link [ref=f1e527] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/destinations
+            - generic [ref=f1e362]: Destinations
+        - listitem [ref=f1e363]:
+          - link [ref=f1e528] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/storages
+            - generic [ref=f1e367]: S3 Storage
+        - listitem [ref=f1e368]:
+          - link [ref=f1e529] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/shared-variables
+            - generic [ref=f1e377]: Shared Variables
+        - listitem [ref=f1e378]: Manage
+        - listitem [ref=f1e379]:
+          - link [ref=f1e530] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/team
+            - generic [ref=f1e388]: Team
+        - listitem [ref=f1e389]:
+          - link [ref=f1e531] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+            - generic [ref=f1e393]: Notifications
+        - listitem [ref=f1e394]:
+          - link [ref=f1e532] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/security/private-key
+            - generic [ref=f1e399]: Keys & Tokens
+        - listitem [ref=f1e400]:
+          - link [ref=f1e533] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/tags
+            - generic [ref=f1e404]: Tags
+        - listitem [ref=f1e405]:
+          - link [ref=f1e534] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/settings
+            - generic [ref=f1e410]: Settings
+        - listitem [ref=f1e411]
+      - generic [ref=f1e412]:
+        - button [ref=f1e535]:
+          - generic [ref=f1e415]: D
+          - generic [ref=f1e416]: Daniel de Brito Frota
+        - button [ref=f1e536]
+    - main [ref=f1e422]:
+      - generic [ref=f1e425]:
+        - generic [ref=f1e426]:
+          - heading [level=1] [ref=f1e537]: Projects
+          - button [ref=f1e538] [cursor=pointer]: New project
+        - generic [ref=f1e433]:
+          - searchbox [ref=f1e539]
+          - generic [ref=f1e436]:
+            - button [ref=f1e540] [cursor=pointer]: Sort
+            - generic [ref=f1e442]:
+              - button [ref=f1e541]
+              - button [ref=f1e542]
+        - generic [ref=f1e454]:
+          - generic [ref=f1e455]:
+            - article [ref=f1e456]:
+              - link [ref=f1e543] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/a2uleabeepekwav6cs1ehrla/environment/dyy4fgaqrndfdqn9kxchlray
+              - generic [ref=f1e465]:
+                - heading [level=2] [ref=f1e544]: fazer.ai agents
+                - paragraph [ref=f1e467]: No description
+              - generic [ref=f1e468]:
+                - paragraph [ref=f1e469]: 1 env · 3 resources
+                - generic [ref=f1e470]:
+                  - link [ref=f1e545] [cursor=pointer]:
+                    - /url: https://coolify.ccdtecnologia.com/project/a2uleabeepekwav6cs1ehrla/environment/dyy4fgaqrndfdqn9kxchlray/new
+                  - link [ref=f1e546] [cursor=pointer]:
+                    - /url: https://coolify.ccdtecnologia.com/project/a2uleabeepekwav6cs1ehrla/edit
+            - article [ref=f1e477]:
+              - link [ref=f1e547] [cursor=pointer]:
+                - /url: https://coolify.ccdtecnologia.com/project/rtrjm7mgjfyhtdjkuzluwtst/environment/bjm7ejwsmdd2v2fp7r1tkcmv
+              - generic [ref=f1e486]:
+                - heading [level=2] [ref=f1e548]: Serviços Pessoal
+                - paragraph [ref=f1e488]: No description
+              - generic [ref=f1e489]:
+                - paragraph [ref=f1e490]: 1 env · 0 resources
+                - generic [ref=f1e491]:
+                  - link [ref=f1e549] [cursor=pointer]:
+                    - /url: https://coolify.ccdtecnologia.com/project/rtrjm7mgjfyhtdjkuzluwtst/environment/bjm7ejwsmdd2v2fp7r1tkcmv/new
+                  - link [ref=f1e550] [cursor=pointer]:
+                    - /url: https://coolify.ccdtecnologia.com/project/rtrjm7mgjfyhtdjkuzluwtst/edit
+          - generic [ref=f1e498]:
+            - generic [ref=f1e499]:
+              - generic [ref=f1e500]: 1-2 of 2
+              - button [ref=f1e551]:
+                - generic [ref=f1e506]: "12"
+            - generic [ref=f1e510]:
+              - button [disabled]
+              - button [disabled]
+  - generic [ref=f1e555]:
+    - banner [ref=f1e556]:
+      - heading "New Project" [level=3] [ref=f1e557]
+      - button [ref=f1e558] [cursor=pointer]
+    - generic [ref=f1e562]:
+      - generic [ref=f1e563]:
+        - generic [ref=f1e564]:
+          - generic [ref=f1e566]:
+            - text: Name
+            - generic [ref=f1e567]: "*"
+          - textbox "Your project name" [active] [ref=f1e568]
+        - generic [ref=f1e569]:
+          - generic [ref=f1e570]: Description
+          - textbox "A short project description" [ref=f1e572]
+      - paragraph [ref=f1e573]: A production environment will be created automatically.
+      - contentinfo [ref=f1e574]:
+        - button "Create project" [ref=f1e575] [cursor=pointer]

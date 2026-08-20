@@ -1,0 +1,185 @@
+- generic [ref=f5e1]:
+  - generic:
+    - generic [ref=f5e3]:
+      - button "Dismiss sponsorship reminder" [ref=f5e4]
+      - heading "Love Coolify? Support our work." [level=2] [ref=f5e10]
+      - link "GitHub Sponsors" [ref=f5e13] [cursor=pointer]:
+        - /url: https://github.com/sponsors/coollabsio
+    - generic [ref=f5e18]:
+      - button "Dismiss notifications reminder" [ref=f5e19]
+      - heading "No notifications enabled" [level=2] [ref=f5e29]
+      - link "Open notifications" [ref=f5e33] [cursor=pointer]:
+        - /url: https://coolify.ccdtecnologia.com/notifications/email
+  - generic [ref=f5e35]:
+    - banner [ref=f5e36]:
+      - generic [ref=f5e37]:
+        - generic [ref=f5e38]:
+          - link "Coolify" [ref=f5e39] [cursor=pointer]:
+            - /url: /
+          - link "v4.3.9" [ref=f5e41] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.3.9
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f5e44]:
+        - button "Root Team" [ref=f5e48]
+        - generic [ref=f5e52]: /
+        - button "website" [ref=f5e54]
+        - generic [ref=f5e58]: /
+        - button "production" [ref=f5e60]
+    - navigation [ref=f5e66]:
+      - button "Search ⌘K" [ref=f5e68]:
+        - generic [ref=f5e69]: Search
+        - generic [ref=f5e73]: ⌘K
+      - list [ref=f5e74]:
+        - listitem [ref=f5e75]: Workspace
+        - listitem [ref=f5e76]:
+          - link "Dashboard" [ref=f5e77] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f5e82]:
+          - link "Projects" [ref=f5e83] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=f5e90]:
+          - link "Terminal" [ref=f5e91] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/terminal
+        - listitem [ref=f5e97]: Infrastructure
+        - listitem [ref=f5e98]:
+          - link "Servers" [ref=f5e99] [cursor=pointer]:
+            - /url: /servers
+        - listitem [ref=f5e103]:
+          - link "Sources" [ref=f5e104] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/sources
+        - listitem [ref=f5e110]:
+          - link "Destinations" [ref=f5e111] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/destinations
+        - listitem [ref=f5e115]:
+          - link "S3 Storage" [ref=f5e116] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/storages
+        - listitem [ref=f5e120]:
+          - link "Shared Variables" [ref=f5e121] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/shared-variables
+        - listitem [ref=f5e130]: Manage
+        - listitem [ref=f5e131]:
+          - link "Team" [ref=f5e132] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/team
+        - listitem [ref=f5e141]:
+          - link "Notifications" [ref=f5e142] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+        - listitem [ref=f5e146]:
+          - link "Keys & Tokens" [ref=f5e147] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/security/private-key
+        - listitem [ref=f5e152]:
+          - link "Tags" [ref=f5e153] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/tags
+        - listitem [ref=f5e157]:
+          - link "Settings" [ref=f5e158] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/settings
+        - listitem [ref=f5e163]
+      - generic [ref=f5e164]:
+        - button "Account menu for Daniel de Brito Frota" [ref=f5e166]:
+          - generic [ref=f5e167]: D
+          - generic [ref=f5e168]: Daniel de Brito Frota
+        - button "Toggle sidebar" [ref=f5e171]
+    - main [ref=f5e174]:
+      - generic [ref=f5e179]:
+        - generic [ref=f5e180]:
+          - generic [ref=f5e181]:
+            - heading "Docker Compose" [level=2] [ref=f5e182]
+            - paragraph [ref=f5e183]: Create a multi-container service directly from a Compose file.
+          - button "Create service" [ref=f5e184] [cursor=pointer]
+        - generic [ref=f5e186]:
+          - generic [ref=f5e187]: Docker Compose file
+          - code [ref=f5e1257]:
+            - generic [ref=f5e1258]:
+              - generic [ref=f5e1260]:
+                - generic [ref=f5e1261]:
+                  - generic [ref=f5e1263] [cursor=pointer]: 
+                  - generic [ref=f5e1264]: "1"
+                - generic [ref=f5e1265]:
+                  - generic [ref=f5e1266] [cursor=pointer]: 
+                  - generic [ref=f5e1267]: "2"
+                - generic [ref=f5e1268]:
+                  - generic [ref=f5e1269] [cursor=pointer]: 
+                  - generic [ref=f5e1270]: "3"
+                - generic [ref=f5e1271]:
+                  - generic [ref=f5e1272] [cursor=pointer]: 
+                  - generic [ref=f5e1273]: "4"
+                - generic [ref=f5e1274]:
+                  - generic [ref=f5e1275] [cursor=pointer]: 
+                  - generic [ref=f5e1276]: "5"
+                - generic [ref=f5e1277]:
+                  - generic [ref=f5e1278] [cursor=pointer]: 
+                  - generic [ref=f5e1279]: "6"
+                - generic [ref=f5e1280]:
+                  - generic [ref=f5e1281] [cursor=pointer]: 
+                  - generic [ref=f5e1282]: "7"
+                - generic [ref=f5e1283]:
+                  - generic [ref=f5e1284] [cursor=pointer]: 
+                  - generic [ref=f5e1285]: "8"
+                - generic [ref=f5e1286]:
+                  - generic [ref=f5e1287] [cursor=pointer]: 
+                  - generic [ref=f5e1288]: "9"
+                - generic [ref=f5e1289]:
+                  - generic [ref=f5e1290] [cursor=pointer]: 
+                  - generic [ref=f5e1291]: "10"
+                - generic [ref=f5e1292]:
+                  - generic [ref=f5e1293] [cursor=pointer]: 
+                  - generic [ref=f5e1294]: "11"
+                - generic [ref=f5e1295]:
+                  - generic [ref=f5e1296] [cursor=pointer]: 
+                  - generic [ref=f5e1297]: "12"
+                - generic [ref=f5e1298]:
+                  - generic [ref=f5e1299] [cursor=pointer]: 
+                  - generic [ref=f5e1300]: "13"
+                - generic [ref=f5e1301]:
+                  - generic [ref=f5e1302] [cursor=pointer]: 
+                  - generic [ref=f5e1303]: "14"
+                - generic [ref=f5e1304]: "15"
+                - generic [ref=f5e1306]:
+                  - generic [ref=f5e1307] [cursor=pointer]: 
+                  - generic [ref=f5e1308]: "16"
+                - generic [ref=f5e1309]:
+                  - generic [ref=f5e1310] [cursor=pointer]: 
+                  - generic [ref=f5e1311]: "17"
+                - generic [ref=f5e1313]:
+                  - generic [ref=f5e1314] [cursor=pointer]: 
+                  - generic [ref=f5e1315]: "18"
+                - generic [ref=f5e1316]:
+                  - generic [ref=f5e1317] [cursor=pointer]: 
+                  - generic [ref=f5e1318]: "19"
+                - generic [ref=f5e1319]:
+                  - generic [ref=f5e1320] [cursor=pointer]: 
+                  - generic [ref=f5e1321]: "20"
+              - generic [ref=f5e1543]:
+                - generic [ref=f5e1544]: "services:"
+                - generic [ref=f5e1546]: "minio:"
+                - generic [ref=f5e1548]: "image: minio/minio:RELEASE.2025-04-22T22-12-26Z"
+                - generic [ref=f5e1550]: "command: \"server /data --console-address :9001\""
+                - generic [ref=f5e1552]: "environment:"
+                - generic [ref=f5e1554]: "MINIO_ROOT_USER: ccdtecnologia"
+                - generic [ref=f5e1556]: "MINIO_ROOT_PASSWORD: ${SERVICE_PASSWORD_64_MINIO}"
+                - generic [ref=f5e1558]: "volumes:"
+                - generic [ref=f5e1560]: "- minio-data:/data"
+                - generic [ref=f5e1562]: "healthcheck:"
+                - generic [ref=f5e1564]: "test: [\"CMD\", \"mc\", \"ready\", \"local\"]"
+                - generic [ref=f5e1566]: "interval: 10s"
+                - generic [ref=f5e1568]: "timeout: 5s"
+                - generic [ref=f5e1570]: "retries: 5"
+                - generic [ref=f5e1574]: "minio-init:"
+                - generic [ref=f5e1576]: "image: minio/mc:RELEASE."
+                - generic [ref=f5e1578]: 2025-04-16T18-13-26Z
+                - generic [ref=f5e1580]: "depends_on:"
+                - generic [ref=f5e1582]: "minio:"
+                - generic [ref=f5e1584]: "condition:"
+                - generic [ref=f5e1586]: service_healthy
+              - textbox "Editor content" [active] [ref=f5e1588]: "services: minio: image: minio/minio:RELEASE.2025-04-22T22-12-26Z command: \"server /data --console-address :9001\" environment: MINIO_ROOT_USER: ccdtecnologia MINIO_ROOT_PASSWORD: ${SERVICE_PASSWORD_64_MINIO} volumes: - minio-data:/data healthcheck:"
+  - list [ref=f5e538]:
+    - listitem [ref=f5e1589]:
+      - generic [ref=f5e1596]:
+        - paragraph [ref=f5e1597]: Error
+        - generic [ref=f5e1598]: "A colon cannot be used in an unquoted mapping value at line 4 (near \" command: \"server /data --console-address :9001\"\")."
+      - button "Copy details" [ref=f5e1599]
+      - button "Dismiss" [ref=f5e1602]
+  - generic [ref=f5e208]:
+    - alert
+    - alert

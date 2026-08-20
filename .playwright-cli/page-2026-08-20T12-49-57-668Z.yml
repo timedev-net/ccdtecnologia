@@ -1,0 +1,232 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e448]:
+    - tooltip: Close
+  - generic [ref=f8e3]:
+    - button [ref=f8e449]
+    - heading [level=2] [ref=f8e450]: Love Coolify? Support our work.
+    - link [ref=f8e451] [cursor=pointer]:
+      - /url: https://github.com/sponsors/coollabsio
+      - text: GitHub Sponsors
+  - generic [ref=f8e18]:
+    - button [ref=f8e452]
+    - heading [level=2] [ref=f8e453]: No notifications enabled
+    - link [ref=f8e454] [cursor=pointer]:
+      - /url: https://coolify.ccdtecnologia.com/notifications/email
+      - text: Open notifications
+  - generic [ref=f8e35]:
+    - banner [ref=f8e36]:
+      - generic [ref=f8e38]:
+        - link [ref=f8e455] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f8e40]: Coolify
+        - link [ref=f8e456] [cursor=pointer]:
+          - /url: https://github.com/coollabsio/coolify/releases/tag/v4.3.9
+          - text: v4.3.9
+      - generic [ref=f8e42]:
+        - generic [ref=f8e44]:
+          - button [ref=f8e457]:
+            - generic [ref=f8e49]: Root Team
+          - generic [ref=f8e52]: /
+          - button [ref=f8e458]:
+            - generic [ref=f8e55]: website
+          - generic [ref=f8e58]: /
+          - button [ref=f8e459]:
+            - generic [ref=f8e61]: production
+          - generic [ref=f8e64]: /
+          - generic [ref=f8e66]:
+            - button [ref=f8e460]:
+              - generic [ref=f8e68]: service-9htptc4jofepfpemlo3yeghg
+            - button [ref=f8e461] [cursor=pointer]:
+              - generic [ref=f8e75]: Exited
+        - generic [ref=f8e83]:
+          - button [ref=f8e462]:
+            - generic [ref=f8e87]: Links
+          - button [ref=f8e463] [cursor=pointer]: Actions
+    - navigation [ref=f8e103]:
+      - button [ref=f8e464]:
+        - generic [ref=f8e106]: Search
+        - generic [ref=f8e110]: ⌘K
+      - list [ref=f8e111]:
+        - listitem [ref=f8e112]: Workspace
+        - listitem [ref=f8e113]:
+          - link [ref=f8e465] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f8e118]: Dashboard
+        - listitem [ref=f8e119]:
+          - link [ref=f8e466] [cursor=pointer]:
+            - /url: /projects
+            - generic [ref=f8e126]: Projects
+        - listitem [ref=f8e127]:
+          - link [ref=f8e467] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/terminal
+            - generic [ref=f8e133]: Terminal
+        - listitem [ref=f8e134]: Infrastructure
+        - listitem [ref=f8e135]:
+          - link [ref=f8e468] [cursor=pointer]:
+            - /url: /servers
+            - generic [ref=f8e139]: Servers
+        - listitem [ref=f8e140]:
+          - link [ref=f8e469] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/sources
+            - generic [ref=f8e146]: Sources
+        - listitem [ref=f8e147]:
+          - link [ref=f8e470] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/destinations
+            - generic [ref=f8e151]: Destinations
+        - listitem [ref=f8e152]:
+          - link [ref=f8e471] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/storages
+            - generic [ref=f8e156]: S3 Storage
+        - listitem [ref=f8e157]:
+          - link [ref=f8e472] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/shared-variables
+            - generic [ref=f8e166]: Shared Variables
+        - listitem [ref=f8e167]: Manage
+        - listitem [ref=f8e168]:
+          - link [ref=f8e473] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/team
+            - generic [ref=f8e177]: Team
+        - listitem [ref=f8e178]:
+          - link [ref=f8e474] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/notifications/email
+            - generic [ref=f8e182]: Notifications
+        - listitem [ref=f8e183]:
+          - link [ref=f8e475] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/security/private-key
+            - generic [ref=f8e188]: Keys & Tokens
+        - listitem [ref=f8e189]:
+          - link [ref=f8e476] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/tags
+            - generic [ref=f8e193]: Tags
+        - listitem [ref=f8e194]:
+          - link [ref=f8e477] [cursor=pointer]:
+            - /url: https://coolify.ccdtecnologia.com/settings
+            - generic [ref=f8e199]: Settings
+        - listitem [ref=f8e200]
+      - generic [ref=f8e201]:
+        - button [ref=f8e478]:
+          - generic [ref=f8e204]: D
+          - generic [ref=f8e205]: Daniel de Brito Frota
+        - button [ref=f8e479]
+    - main [ref=f8e211]:
+      - generic [ref=f8e215]:
+        - complementary [ref=f8e216]:
+          - navigation [ref=f8e480]:
+            - generic [ref=f8e218]: Settings
+            - link [ref=f8e481] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif
+              - generic [ref=f8e223]: General
+            - link [ref=f8e482] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/domains
+              - generic [ref=f8e227]: Domains
+            - link [ref=f8e483] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/environment-variables
+              - generic [ref=f8e236]: Environment Variables
+            - link [ref=f8e484] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/storages
+              - generic [ref=f8e240]: Persistent Storage
+            - generic [ref=f8e242]: Observe & troubleshoot
+            - link [ref=f8e485] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/logs
+              - generic [ref=f8e248]: Runtime Logs
+            - link [ref=f8e486] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/terminal
+              - generic [ref=f8e254]: Terminal
+            - generic [ref=f8e256]: Automation
+            - link [ref=f8e487] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/scheduled-tasks
+              - generic [ref=f8e266]: Scheduled Tasks
+            - link [ref=f8e488] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/webhooks
+              - generic [ref=f8e270]: Webhooks
+            - link [ref=f8e489] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/storage-backups
+              - generic [ref=f8e274]: Backups
+            - generic [ref=f8e276]: Operations
+            - link [ref=f8e490] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/resource-operations
+              - generic [ref=f8e280]: Resource Operations
+            - link [ref=f8e491] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/tags
+              - generic [ref=f8e284]: Tags
+            - link [ref=f8e492] [cursor=pointer]:
+              - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/danger
+              - generic [ref=f8e290]: Danger Zone
+        - generic [ref=f8e291]:
+          - generic [ref=f8e292]:
+            - generic:
+              - generic: You have changes that haven't been saved yet.
+              - generic:
+                - button: Reset
+                - button:
+                  - generic: Save changes
+                  - generic: Enter
+            - generic [ref=f8e293]:
+              - generic [ref=f8e294]:
+                - heading [level=3] [ref=f8e493]:
+                  - button [ref=f8e494] [cursor=pointer]:
+                    - generic [ref=f8e299]: Service details
+                - generic [ref=f8e301]:
+                  - button [ref=f8e495] [cursor=pointer]: Edit Compose file
+                  - button [ref=f8e496] [cursor=pointer]: Details
+              - generic [ref=f8e307]:
+                - generic [ref=f8e308]:
+                  - generic [ref=f8e310]:
+                    - text: Service name
+                    - generic [ref=f8e311]: "*"
+                  - textbox [ref=f8e497]:
+                    - /placeholder: My WordPress site
+                    - text: ccd-minio
+                - generic [ref=f8e313]:
+                  - generic [ref=f8e314]: Description
+                  - textbox [ref=f8e418]
+            - generic [ref=f8e317]:
+              - heading [level=3] [ref=f8e498]:
+                - button [ref=f8e499] [cursor=pointer]:
+                  - generic [ref=f8e323]: Network
+              - generic [ref=f8e325]:
+                - generic [ref=f8e326]: Network attachment
+                - button [ref=f8e500] [cursor=pointer]:
+                  - generic [ref=f8e330]: Use the stack network only
+            - generic [ref=f8e333]:
+              - heading [level=3] [ref=f8e501]:
+                - button [ref=f8e502] [cursor=pointer]:
+                  - generic [ref=f8e339]: Service configuration
+              - generic [ref=f8e342]:
+                - generic [ref=f8e343]:
+                  - generic [ref=f8e344]: MinIO · Admin Password
+                  - button [ref=f8e503] [cursor=pointer]
+                - generic [ref=f8e352]:
+                  - textbox [ref=f8e419]: "${SERVICE_PASSWORD_64_MINIO}"
+                  - button [ref=f8e504] [cursor=pointer]
+          - generic [ref=f8e358]:
+            - generic [ref=f8e359]:
+              - generic [ref=f8e360]:
+                - heading [level=2] [ref=f8e505]: Compose resources
+                - paragraph [ref=f8e362]: Applications and databases defined in this service.
+              - generic [ref=f8e363]:
+                - generic [ref=f8e364]:
+                  - button [ref=f8e506]
+                  - button [ref=f8e507]
+                - link [ref=f8e508] [cursor=pointer]:
+                  - /url: https://coolify.io/docs
+                  - text: Documentation
+            - generic [ref=f8e381]:
+              - generic [ref=f8e382]:
+                - generic [ref=f8e383]: Resource
+                - generic [ref=f8e384]: Image
+                - generic [ref=f8e385]: Status
+              - generic [ref=f8e388]:
+                - generic [ref=f8e389]: Minio
+                - generic [ref=f8e398]: minio/minio:RELEASE.2025-04-22T22-12-26Z
+                - generic [ref=f8e399]:
+                  - generic [ref=f8e400]: Exited
+                  - link [ref=f8e509] [cursor=pointer]:
+                    - /url: https://coolify.ccdtecnologia.com/project/zr93ysmudivnbcl2ufsgy7ra/environment/imygz3i8obdkr2t2qx5zfk90/service/7jjlcztfpjuidkmyczbzsqif/ofh4pkhgh5plo0vlxdulv1i5
+  - dialog [ref=f8e513]:
+    - banner [ref=f8e514]:
+      - heading "Service Startup" [level=3] [ref=f8e515]
+      - button "Close" [active] [ref=f8e516] [cursor=pointer]
+    - generic [ref=f8e521]:
+      - heading "Logs" [level=3] [ref=f8e522]
+      - status [ref=f8e523]
