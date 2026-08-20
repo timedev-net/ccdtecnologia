@@ -9,5 +9,6 @@
 - [x] Incluir o fallback SQLite no artefato standalone de produção.
 - [x] Carregar o adaptador SQLite condicionalmente no runtime local.
 - [x] Criar e registrar a migration baseline do PostgreSQL.
+- [x] Incluir o `drizzle-kit` no trace standalone da migration PostgreSQL.
 - [ ] Validar TypeScript e lint.
 - [ ] Publicar a revisão no repositório e conectar a aplicação no Coolify.

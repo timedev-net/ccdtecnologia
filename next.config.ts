@@ -20,6 +20,11 @@ const nextConfig: NextConfig = {
     '/*': [
       './node_modules/.pnpm/@libsql+*/node_modules/@libsql/**/*',
       './node_modules/.pnpm/libsql@*/node_modules/libsql/**/*',
+      // Payload loads drizzle-kit dynamically while running a PostgreSQL
+      // baseline migration, so Next cannot infer this runtime dependency.
+      './node_modules/drizzle-kit/**/*',
+      './node_modules/.pnpm/drizzle-kit@*/node_modules/drizzle-kit/**/*',
+      './node_modules/.pnpm/@drizzle-team+*/node_modules/@drizzle-team/**/*',
     ],
   },
   // Temporarily required on Windows until Next.js fixes Turbopack Sass resolution.

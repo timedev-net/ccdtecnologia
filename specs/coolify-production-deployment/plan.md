@@ -11,5 +11,6 @@
 9. Incluir as dependências carregadas sob demanda pelo adaptador SQLite no rastreamento standalone do Next, preservando o fallback local sem afetar o runtime PostgreSQL.
 10. Carregar o adaptador SQLite somente quando o ambiente local o seleciona, impedindo que sua dependência nativa seja requerida pelo runtime PostgreSQL.
 11. Executar uma migration baseline específica do PostgreSQL no primeiro boot de produção, criando o schema completo do Payload antes do portal ser usado.
+12. Incluir o `drizzle-kit` carregado dinamicamente pela migration no artefato standalone do Next.
 
 O Coolify mantém Postgres e MinIO privados na rede do projeto. O DNS público será ligado após os registros Cloudflare apontarem para a VPS.
