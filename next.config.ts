@@ -13,6 +13,15 @@ const NEXT_PUBLIC_SERVER_URL = process.env.VERCEL_PROJECT_PRODUCTION_URL
 
 const nextConfig: NextConfig = {
   output: 'standalone',
+  // Payload keeps SQLite available for local development. Include its lazy-loaded
+  // libSQL binary in the standalone trace so production's conditional adapter
+  // loading does not fail at runtime.
+  outputFileTracingIncludes: {
+    '/*': [
+      './node_modules/.pnpm/@libsql+*/node_modules/@libsql/**/*',
+      './node_modules/.pnpm/libsql@*/node_modules/libsql/**/*',
+    ],
+  },
   // Temporarily required on Windows until Next.js fixes Turbopack Sass resolution.
   // See: https://github.com/vercel/next.js/issues/86431
   sassOptions: {
