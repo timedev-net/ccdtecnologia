@@ -1,7 +1,5 @@
 import { postgresAdapter } from '@payloadcms/db-postgres'
-import { pushDevSchema } from '@payloadcms/drizzle'
 import { s3Storage } from '@payloadcms/storage-s3'
-import { sql } from 'drizzle-orm'
 import sharp from 'sharp'
 import path from 'path'
 import { buildConfig, PayloadRequest } from 'payload'
@@ -88,15 +86,6 @@ export default buildConfig({
   // This config helps us configure global or default features that the other editors can inherit
   editor: defaultLexical,
   db: database,
-  onInit: async (payload) => {
-    if (!usesPostgres) return
-
-    try {
-      await payload.db.drizzle.execute(sql`SELECT 1 FROM users LIMIT 1`)
-    } catch {
-      await pushDevSchema(payload.db as Parameters<typeof pushDevSchema>[0])
-    }
-  },
   collections: [Pages, Posts, Media, Categories, Users, Applications],
   cors: [getServerSideURL()].filter(Boolean),
   globals: [Header, Footer],
