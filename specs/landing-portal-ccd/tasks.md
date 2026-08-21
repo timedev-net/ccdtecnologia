@@ -10,3 +10,4 @@
 - [x] Integrar o widget de atendimento Chatwoot na landing pública.
 - [x] Fixar tema escuro inicial e refinar legibilidade, cores e imagens da landing.
 - [x] Reequilibrar o hero para melhorar a hierarquia visual e evitar sobreposição de conteúdo.
+- [x] Criar e configurar a capa Open Graph institucional da CCD.

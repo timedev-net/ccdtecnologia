@@ -3,14 +3,17 @@ import { getServerSideURL } from './getURL'
 
 const defaultOpenGraph: Metadata['openGraph'] = {
   type: 'website',
-  description: 'An open-source website built with Payload and Next.js.',
+  description: 'Soluções digitais, dados, inteligência artificial e infraestrutura para empresas em movimento.',
   images: [
     {
-      url: `${getServerSideURL()}/website-template-OG.webp`,
+      url: `${getServerSideURL()}/og/ccd-tecnologia-social.png`,
+      width: 1200,
+      height: 630,
+      alt: 'CCD Tecnologia — Soluções digitais que transformam negócios.',
     },
   ],
   siteName: 'CCD Tecnologia',
-  title: 'Payload Website Template',
+  title: 'CCD Tecnologia | Soluções digitais que movem negócios',
 }
 
 export const mergeOpenGraph = (og?: Metadata['openGraph']): Metadata['openGraph'] => {

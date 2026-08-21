@@ -57,5 +57,13 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     creator: '@ccdtecnologia',
+    title: 'CCD Tecnologia | Soluções digitais que movem negócios',
+    description: 'Soluções digitais, dados, inteligência artificial e infraestrutura para empresas em movimento.',
+    images: [
+      {
+        url: '/og/ccd-tecnologia-social.png',
+        alt: 'CCD Tecnologia — Soluções digitais que transformam negócios.',
+      },
+    ],
   },
 }

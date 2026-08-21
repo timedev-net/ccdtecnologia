@@ -1,2 +1,11 @@
 [  218216ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
 [  218449ms] [LOG] [Fast Refresh] done in 334ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  480575ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[  498826ms] [ERROR] WebSocket connection to 'wss://chatwoot.ccdtecnologia.com/cable' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://chatwoot.ccdtecnologia.com/vite/assets/index-DGKhLiEe.js:0
+[ 1187006ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1187026ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1187088ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1187167ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1212678ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1215799ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1215873ms] [LOG] [Fast Refresh] done in 175ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
