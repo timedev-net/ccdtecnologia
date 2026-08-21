@@ -9,3 +9,21 @@
 [ 1212678ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
 [ 1215799ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
 [ 1215873ms] [LOG] [Fast Refresh] done in 175ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1478641ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1478660ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1478719ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1478804ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1479024ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1479552ms] [LOG] [Fast Refresh] done in 629ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1481069ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.svg:0
+[ 1484077ms] [WARNING] The resource http://localhost:3000/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[ 1484077ms] [WARNING] The resource http://localhost:3000/_next/static/media/GeistMono_Variable.p.3ms9vq719j3f8.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[ 1484077ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/_14smrki._.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[ 1484077ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/1t85_%40payloadcms_ui_dist_icons_Copy_index_scss_0o66ggs.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[ 1489277ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1489349ms] [LOG] [Fast Refresh] done in 174ms @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1507625ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=tw-vR9ua4VtyCPfyKBUrO' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[ 1508627ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=tw-vR9ua4VtyCPfyKBUrO' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_client_0o9v-ue._.js:16256
+[ 1509634ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1510084ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
+[ 1510098ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fpc_next_dist_0p0gslw._.js:776
