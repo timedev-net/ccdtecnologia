@@ -15,6 +15,7 @@ import {
   MessageSquareMore,
   MousePointer2,
   Network,
+  Phone,
   Smartphone,
   Sparkles,
   Workflow,
@@ -38,6 +39,8 @@ const services: Service[] = [
 ]
 
 const capabilities = ['Diagnóstico estratégico', 'Produto digital', 'Integração e automação', 'Evolução contínua']
+
+const whatsappUrl = `https://wa.me/556931850955?text=${encodeURIComponent('Olá, venho através do site e gostaria de algumas informações!')}`
 
 const parallaxPhotos = [
   'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85',
@@ -123,8 +126,17 @@ export const Landing = () => {
       <section className="ccd-section contact-section" id="contato">
         <div className="contact-glow" />
         <div className="ccd-container contact-layout" data-reveal>
-          <div><p className="section-kicker">VAMOS COMEÇAR?</p><h2>Sua ideia merece ganhar escala.</h2><p>Conte um pouco sobre o desafio da sua empresa. Nossa equipe entra em contato para desenhar o próximo passo.</p></div>
-          <form className="contact-form" action="mailto:contato@ccdtecnologia.com.br" method="post" encType="text/plain"><label>Seu nome<input name="nome" required placeholder="Como podemos te chamar?" /></label><label>E-mail corporativo<input name="email" required type="email" placeholder="voce@empresa.com" /></label><label>O que você quer transformar?<textarea name="mensagem" required placeholder="Conte brevemente sobre seu projeto" rows={4} /></label><button className="button-primary" type="submit">Enviar mensagem <Mail aria-hidden="true" /></button></form>
+          <div>
+            <p className="section-kicker">VAMOS COMEÇAR?</p>
+            <h2>Sua ideia merece ganhar escala.</h2>
+            <p>Conte um pouco sobre o desafio da sua empresa. Nossa equipe entra em contato para desenhar o próximo passo.</p>
+            <div className="contact-channels" aria-label="Canais de atendimento">
+              <a href="tel:+556931850955"><Phone aria-hidden="true" /><span>Telefone e WhatsApp<strong>69 3185-0955</strong></span></a>
+              <a href="mailto:contato@ccdtecnologia.com"><Mail aria-hidden="true" /><span>E-mail<strong>contato@ccdtecnologia.com</strong></span></a>
+              <a className="button-primary contact-whatsapp" href={whatsappUrl} rel="noreferrer" target="_blank">Fale conosco <MessageSquareMore aria-hidden="true" /></a>
+            </div>
+          </div>
+          <form className="contact-form" action="mailto:contato@ccdtecnologia.com" method="post" encType="text/plain"><label>Seu nome<input name="nome" required placeholder="Como podemos te chamar?" /></label><label>E-mail corporativo<input name="email" required type="email" placeholder="voce@empresa.com" /></label><label>O que você quer transformar?<textarea name="mensagem" required placeholder="Conte brevemente sobre seu projeto" rows={4} /></label><button className="button-primary" type="submit">Enviar mensagem <Mail aria-hidden="true" /></button></form>
         </div>
       </section>
     </main>

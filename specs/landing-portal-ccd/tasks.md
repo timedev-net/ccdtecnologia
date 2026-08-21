@@ -12,3 +12,4 @@
 - [x] Reequilibrar o hero para melhorar a hierarquia visual e evitar sobreposição de conteúdo.
 - [x] Criar e configurar a capa Open Graph institucional da CCD.
 - [x] Criar e configurar os favicons da CCD.
+- [x] Exibir canais de atendimento e CTA de WhatsApp na landing.

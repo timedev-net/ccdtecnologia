@@ -15,6 +15,7 @@ Apresentar os serviços da CCD Tecnologia em uma landing page de alta conversão
 - Manter o conteúdo do hero em uma coluna de leitura clara; imagens, partículas e painéis decorativos não podem disputar espaço com os CTAs ou com o texto principal.
 - Exibir uma capa institucional da CCD Tecnologia nas prévias de compartilhamento, sem referências visuais ou textuais ao template do Payload.
 - Usar a marca CCD como favicon, com versões adequadas para navegadores e dispositivos móveis.
+- Exibir telefone/WhatsApp e e-mail de contato, com um CTA que inicia uma conversa no WhatsApp com mensagem preenchida.
 - Autenticar usuários com o Payload; visitantes do portal devem ser enviados ao login.
 - Permitir que administradores cadastrem aplicativos e os atribuam a clientes.
 - Mostrar a cada cliente exclusivamente os aplicativos aos quais está vinculado.
