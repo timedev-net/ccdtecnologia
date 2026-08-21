@@ -20,3 +20,11 @@
 [ 4531532ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
 [ 4531584ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://coolify.ccdtecnologia.com/livewire/update:0
 [ 4531587ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 7056259ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[ 7423609ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[11630738ms] [ERROR] Coolify could not connect to its real-time service. This will cause unusual problems on the UI if not fixed! Please check the related documentation (https://coolify.io/docs/knowledge-base/cloudflare/tunnels/overview) or get help on Discord (https://coollabs.io/discord).) @ :40
+[12293852ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[12402187ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[12594662ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[12594698ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0
+[12607044ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://coolify.ccdtecnologia.com/livewire/update:0

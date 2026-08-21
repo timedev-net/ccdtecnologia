@@ -12,6 +12,7 @@ Apresentar os serviços da CCD Tecnologia em uma landing page de alta conversão
 - Carregar o widget de atendimento Chatwoot somente na landing pública.
 - Iniciar em tema escuro por padrão, independentemente da preferência do sistema, e permitir alternância manual.
 - Priorizar legibilidade com a paleta verde e roxa e imagens de reuniões de negócio e análise de dados.
+- Manter o conteúdo do hero em uma coluna de leitura clara; imagens, partículas e painéis decorativos não podem disputar espaço com os CTAs ou com o texto principal.
 - Autenticar usuários com o Payload; visitantes do portal devem ser enviados ao login.
 - Permitir que administradores cadastrem aplicativos e os atribuam a clientes.
 - Mostrar a cada cliente exclusivamente os aplicativos aos quais está vinculado.

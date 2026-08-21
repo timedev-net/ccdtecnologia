@@ -9,3 +9,4 @@
 - [x] Intensificar partículas e criar painel imersivo de desenvolvimento de software.
 - [x] Integrar o widget de atendimento Chatwoot na landing pública.
 - [x] Fixar tema escuro inicial e refinar legibilidade, cores e imagens da landing.
+- [x] Reequilibrar o hero para melhorar a hierarquia visual e evitar sobreposição de conteúdo.
