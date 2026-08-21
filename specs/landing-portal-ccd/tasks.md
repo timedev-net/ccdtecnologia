@@ -7,3 +7,4 @@
 - [x] Gerar tipos e validar com lint e testes.
 - [x] Tornar a landing mais imersiva com partículas, parallax e tema claro/escuro.
 - [x] Intensificar partículas e criar painel imersivo de desenvolvimento de software.
+- [x] Integrar o widget de atendimento Chatwoot na landing pública.

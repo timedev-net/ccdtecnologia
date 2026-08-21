@@ -21,6 +21,7 @@ import {
   type LucideIcon,
 } from 'lucide-react'
 import { CSSProperties, MouseEvent, useEffect, useRef } from 'react'
+import { ChatwootWidget } from './ChatwootWidget'
 import { ParticleField } from './ParticleField'
 
 type Service = { icon: LucideIcon; title: string; text: string }
@@ -68,6 +69,7 @@ export const Landing = () => {
 
   return (
     <main className="ccd-site" ref={root}>
+      <ChatwootWidget />
       <section className="ccd-hero" id="inicio">
         <div className="hero-software-scene" style={{ backgroundImage: `url(${parallaxPhotos[0]})` }} />
         <div className="hero-orb hero-orb-one" />

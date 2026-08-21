@@ -9,6 +9,7 @@ Apresentar os serviços da CCD Tecnologia em uma landing page de alta conversão
 - Exibir uma landing em pt-BR com navegação por âncoras, serviços, processo, diferenciais, formulário e CTA para o portal.
 - Aplicar identidade escura com verde-limão e verde-esmeralda, usando as logos fornecidas.
 - Exibir imagens remotas do Unsplash em camadas parallax e movimentos que respeitem `prefers-reduced-motion`.
+- Carregar o widget de atendimento Chatwoot somente na landing pública.
 - Autenticar usuários com o Payload; visitantes do portal devem ser enviados ao login.
 - Permitir que administradores cadastrem aplicativos e os atribuam a clientes.
 - Mostrar a cada cliente exclusivamente os aplicativos aos quais está vinculado.
