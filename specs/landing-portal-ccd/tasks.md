@@ -8,3 +8,4 @@
 - [x] Tornar a landing mais imersiva com partículas, parallax e tema claro/escuro.
 - [x] Intensificar partículas e criar painel imersivo de desenvolvimento de software.
 - [x] Integrar o widget de atendimento Chatwoot na landing pública.
+- [x] Fixar tema escuro inicial e refinar legibilidade, cores e imagens da landing.
